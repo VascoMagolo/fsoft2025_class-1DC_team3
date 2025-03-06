@@ -128,29 +128,53 @@ fsoft2025_class_1DC_team2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team2.dir\build.make CMakeFiles/fsoft2025_class_1DC_team2.dir/build
 .PHONY : fsoft2025_class_1DC_team2/fast
 
-Project/Bank_Account.obj: Project/Bank_Account.cpp.obj
-.PHONY : Project/Bank_Account.obj
+Project/classes.obj: Project/classes.cpp.obj
+.PHONY : Project/classes.obj
 
 # target to build an object file
-Project/Bank_Account.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team2.dir\build.make CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/Bank_Account.cpp.obj
-.PHONY : Project/Bank_Account.cpp.obj
+Project/classes.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team2.dir\build.make CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/classes.cpp.obj
+.PHONY : Project/classes.cpp.obj
 
-Project/Bank_Account.i: Project/Bank_Account.cpp.i
-.PHONY : Project/Bank_Account.i
+Project/classes.i: Project/classes.cpp.i
+.PHONY : Project/classes.i
 
 # target to preprocess a source file
-Project/Bank_Account.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team2.dir\build.make CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/Bank_Account.cpp.i
-.PHONY : Project/Bank_Account.cpp.i
+Project/classes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team2.dir\build.make CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/classes.cpp.i
+.PHONY : Project/classes.cpp.i
 
-Project/Bank_Account.s: Project/Bank_Account.cpp.s
-.PHONY : Project/Bank_Account.s
+Project/classes.s: Project/classes.cpp.s
+.PHONY : Project/classes.s
 
 # target to generate assembly for a file
-Project/Bank_Account.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team2.dir\build.make CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/Bank_Account.cpp.s
-.PHONY : Project/Bank_Account.cpp.s
+Project/classes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team2.dir\build.make CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/classes.cpp.s
+.PHONY : Project/classes.cpp.s
+
+Project/functions.obj: Project/functions.cpp.obj
+.PHONY : Project/functions.obj
+
+# target to build an object file
+Project/functions.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team2.dir\build.make CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/functions.cpp.obj
+.PHONY : Project/functions.cpp.obj
+
+Project/functions.i: Project/functions.cpp.i
+.PHONY : Project/functions.i
+
+# target to preprocess a source file
+Project/functions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team2.dir\build.make CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/functions.cpp.i
+.PHONY : Project/functions.cpp.i
+
+Project/functions.s: Project/functions.cpp.s
+.PHONY : Project/functions.s
+
+# target to generate assembly for a file
+Project/functions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team2.dir\build.make CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/functions.cpp.s
+.PHONY : Project/functions.cpp.s
 
 Project/main.obj: Project/main.cpp.obj
 .PHONY : Project/main.obj
@@ -185,9 +209,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... fsoft2025_class_1DC_team2
-	@echo ... Project/Bank_Account.obj
-	@echo ... Project/Bank_Account.i
-	@echo ... Project/Bank_Account.s
+	@echo ... Project/classes.obj
+	@echo ... Project/classes.i
+	@echo ... Project/classes.s
+	@echo ... Project/functions.obj
+	@echo ... Project/functions.i
+	@echo ... Project/functions.s
 	@echo ... Project/main.obj
 	@echo ... Project/main.i
 	@echo ... Project/main.s

@@ -1,10 +1,29 @@
 #include <iostream>
-#include "Bank_Account.h"
+#include <string>
+
+using namespace std;
+
+#include "classes.h"
+#include "functions.h"
 
 int main() {
-    Bank_Account account(12345, 1000);
-    account.deposit(500);
-    account.withdraw(200);
-    account.display();
-    return 0;
+    int option;
+    // Inicial menu, later going to changed by a graphical interface
+    while (true) {
+        cout << "Menu\n 1 - Create Account\n 2 - Login into account\n 0 - Exit\n";
+        cin >> option;
+        switch (option) {
+            case 1:
+                create_bank_account();
+                break;
+            case 2:
+                login();
+                break;
+            case 0:
+                return 0;
+            default:
+                cout << "Invalid Option.\n";
+                break;
+        }
+    }
 }
