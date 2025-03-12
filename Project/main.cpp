@@ -26,4 +26,4 @@ int main() {
                 break;
         }
     }
-}
+}// C:\Program Files\MySQL\MySQL Connector C++ 9.2 is the path to the MySQL Connector C++ 9.2
