@@ -5,10 +5,17 @@ using namespace std;
 
 #include "classes.h"
 #include "functions.h"
+#include "db_connection.h"
 
 int main() {
     int option;
     // Inicial menu, later going to changed by a graphical interface
+    DBConnection db("localhost", "root", "password", "fsoft_project");
+
+    if (db.getConnection()) {
+        std::cout << "Ready to run queries!" << std::endl;
+    }
+
     while (true) {
         cout << "Menu\n 1 - Create Account\n 2 - Login into account\n 0 - Exit\n";
         cin >> option;

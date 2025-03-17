@@ -152,6 +152,30 @@ Project/classes.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team2.dir\build.make CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/classes.cpp.s
 .PHONY : Project/classes.cpp.s
 
+Project/db_connection.obj: Project/db_connection.cpp.obj
+.PHONY : Project/db_connection.obj
+
+# target to build an object file
+Project/db_connection.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team2.dir\build.make CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/db_connection.cpp.obj
+.PHONY : Project/db_connection.cpp.obj
+
+Project/db_connection.i: Project/db_connection.cpp.i
+.PHONY : Project/db_connection.i
+
+# target to preprocess a source file
+Project/db_connection.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team2.dir\build.make CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/db_connection.cpp.i
+.PHONY : Project/db_connection.cpp.i
+
+Project/db_connection.s: Project/db_connection.cpp.s
+.PHONY : Project/db_connection.s
+
+# target to generate assembly for a file
+Project/db_connection.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team2.dir\build.make CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/db_connection.cpp.s
+.PHONY : Project/db_connection.cpp.s
+
 Project/functions.obj: Project/functions.cpp.obj
 .PHONY : Project/functions.obj
 
@@ -212,6 +236,9 @@ help:
 	@echo ... Project/classes.obj
 	@echo ... Project/classes.i
 	@echo ... Project/classes.s
+	@echo ... Project/db_connection.obj
+	@echo ... Project/db_connection.i
+	@echo ... Project/db_connection.s
 	@echo ... Project/functions.obj
 	@echo ... Project/functions.i
 	@echo ... Project/functions.s
