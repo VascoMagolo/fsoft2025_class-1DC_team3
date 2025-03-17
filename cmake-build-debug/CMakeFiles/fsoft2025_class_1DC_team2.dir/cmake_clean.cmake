@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/classes.cpp.obj"
   "CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/classes.cpp.obj.d"
+  "CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/db_connection.cpp.obj"
+  "CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/db_connection.cpp.obj.d"
   "CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/functions.cpp.obj"
   "CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/functions.cpp.obj.d"
   "CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/main.cpp.obj"
