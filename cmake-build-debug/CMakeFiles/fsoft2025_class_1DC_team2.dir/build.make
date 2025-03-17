@@ -69,6 +69,7 @@ include CMakeFiles/fsoft2025_class_1DC_team2.dir/progress.make
 include CMakeFiles/fsoft2025_class_1DC_team2.dir/flags.make
 
 CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/main.cpp.obj: CMakeFiles/fsoft2025_class_1DC_team2.dir/flags.make
+CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/main.cpp.obj: CMakeFiles/fsoft2025_class_1DC_team2.dir/includes_CXX.rsp
 CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/main.cpp.obj: C:/Users/vasco/CLionProjects/fsoft2025_class-1DC_team2/Project/main.cpp
 CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/main.cpp.obj: CMakeFiles/fsoft2025_class_1DC_team2.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/main.cpp.obj"
@@ -83,6 +84,7 @@ CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/main.cpp.s: cmake_force
 	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team2\Project\main.cpp -o CMakeFiles\fsoft2025_class_1DC_team2.dir\Project\main.cpp.s
 
 CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/classes.cpp.obj: CMakeFiles/fsoft2025_class_1DC_team2.dir/flags.make
+CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/classes.cpp.obj: CMakeFiles/fsoft2025_class_1DC_team2.dir/includes_CXX.rsp
 CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/classes.cpp.obj: C:/Users/vasco/CLionProjects/fsoft2025_class-1DC_team2/Project/classes.cpp
 CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/classes.cpp.obj: CMakeFiles/fsoft2025_class_1DC_team2.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/classes.cpp.obj"
@@ -97,6 +99,7 @@ CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/classes.cpp.s: cmake_force
 	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team2\Project\classes.cpp -o CMakeFiles\fsoft2025_class_1DC_team2.dir\Project\classes.cpp.s
 
 CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/functions.cpp.obj: CMakeFiles/fsoft2025_class_1DC_team2.dir/flags.make
+CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/functions.cpp.obj: CMakeFiles/fsoft2025_class_1DC_team2.dir/includes_CXX.rsp
 CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/functions.cpp.obj: C:/Users/vasco/CLionProjects/fsoft2025_class-1DC_team2/Project/functions.cpp
 CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/functions.cpp.obj: CMakeFiles/fsoft2025_class_1DC_team2.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/functions.cpp.obj"
@@ -110,11 +113,27 @@ CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/functions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/functions.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team2\Project\functions.cpp -o CMakeFiles\fsoft2025_class_1DC_team2.dir\Project\functions.cpp.s
 
+CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/db_connection.cpp.obj: CMakeFiles/fsoft2025_class_1DC_team2.dir/flags.make
+CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/db_connection.cpp.obj: CMakeFiles/fsoft2025_class_1DC_team2.dir/includes_CXX.rsp
+CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/db_connection.cpp.obj: C:/Users/vasco/CLionProjects/fsoft2025_class-1DC_team2/Project/db_connection.cpp
+CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/db_connection.cpp.obj: CMakeFiles/fsoft2025_class_1DC_team2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/db_connection.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/db_connection.cpp.obj -MF CMakeFiles\fsoft2025_class_1DC_team2.dir\Project\db_connection.cpp.obj.d -o CMakeFiles\fsoft2025_class_1DC_team2.dir\Project\db_connection.cpp.obj -c C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team2\Project\db_connection.cpp
+
+CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/db_connection.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/db_connection.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team2\Project\db_connection.cpp > CMakeFiles\fsoft2025_class_1DC_team2.dir\Project\db_connection.cpp.i
+
+CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/db_connection.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/db_connection.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team2\Project\db_connection.cpp -o CMakeFiles\fsoft2025_class_1DC_team2.dir\Project\db_connection.cpp.s
+
 # Object files for target fsoft2025_class_1DC_team2
 fsoft2025_class_1DC_team2_OBJECTS = \
 "CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/main.cpp.obj" \
 "CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/classes.cpp.obj" \
-"CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/functions.cpp.obj"
+"CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/functions.cpp.obj" \
+"CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/db_connection.cpp.obj"
 
 # External object files for target fsoft2025_class_1DC_team2
 fsoft2025_class_1DC_team2_EXTERNAL_OBJECTS =
@@ -122,12 +141,14 @@ fsoft2025_class_1DC_team2_EXTERNAL_OBJECTS =
 fsoft2025_class_1DC_team2.exe: CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/main.cpp.obj
 fsoft2025_class_1DC_team2.exe: CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/classes.cpp.obj
 fsoft2025_class_1DC_team2.exe: CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/functions.cpp.obj
+fsoft2025_class_1DC_team2.exe: CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/db_connection.cpp.obj
 fsoft2025_class_1DC_team2.exe: CMakeFiles/fsoft2025_class_1DC_team2.dir/build.make
 fsoft2025_class_1DC_team2.exe: CMakeFiles/fsoft2025_class_1DC_team2.dir/linkLibs.rsp
 fsoft2025_class_1DC_team2.exe: CMakeFiles/fsoft2025_class_1DC_team2.dir/objects1.rsp
 fsoft2025_class_1DC_team2.exe: CMakeFiles/fsoft2025_class_1DC_team2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable fsoft2025_class_1DC_team2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable fsoft2025_class_1DC_team2.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\fsoft2025_class_1DC_team2.dir\link.txt --verbose=$(VERBOSE)
+	"C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E copy "C:/Program Files/MySQL/MySQL Connector C++ 9.2/lib64/vs14/mysqlcppconn.dll" C:/Users/vasco/CLionProjects/fsoft2025_class-1DC_team2/cmake-build-debug
 
 # Rule to build all files generated by this target.
 CMakeFiles/fsoft2025_class_1DC_team2.dir/build: fsoft2025_class_1DC_team2.exe
