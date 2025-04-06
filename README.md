@@ -2,7 +2,7 @@
 
 ## FSOTF Project
 
-fsoft2025\_class-1DC\_team2
+fsoft2025\_class-1DC\_team3
 
 <ul>
   <li> Vasco Magolo 1231562 </li>
