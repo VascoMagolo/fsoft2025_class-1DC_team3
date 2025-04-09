@@ -1,3 +1,0 @@
-C:/Users/vasco/CLionProjects/fsoft2025_class-1DC_team2/cmake-build-debug/CMakeFiles/fsoft2025_class_1DC_team2.dir
-C:/Users/vasco/CLionProjects/fsoft2025_class-1DC_team2/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/vasco/CLionProjects/fsoft2025_class-1DC_team2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -63,8 +63,3 @@ int login() {
 void menu() {
 
 }
-
-void create_mysqlcon() {
-    //creats mysql connection to the database localhost 3306 root vasco2005 fsoft_project
-
-}
