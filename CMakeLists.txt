@@ -9,3 +9,6 @@ add_executable(fsoft2025_class_1DC_team3
         Project/classes.cpp
         Project/functions.cpp
 )
+
+find_package(nlohmann_json CONFIG REQUIRED)
+target_link_libraries(fsoft2025_class_1DC_team3 PRIVATE nlohmann_json::nlohmann_json)

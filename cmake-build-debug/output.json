@@ -1,0 +1,10 @@
+[
+    {
+        "account_number": 123456,
+        "address": "123 Main St",
+        "age": 25,
+        "balance": 1000.0,
+        "name": "John Doe",
+        "password": "password123"
+    }
+]

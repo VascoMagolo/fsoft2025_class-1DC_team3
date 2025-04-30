@@ -33,7 +33,7 @@ void Bank_Account::saveBalanceToFile(int acc_number) { // Function to save the a
     } // Open file only if the account number matches
 
     // Open file only if the account number matches
-    ofstream file("C:/Users/vasco/Documents/account_balance.txt", ios::app); // Append mode
+    ofstream file("account_balance.txt", ios::app); // Append mode
     if (!file) {
         cout << "Error: Unable to open file for writing.\n";
         return;
@@ -43,7 +43,7 @@ void Bank_Account::saveBalanceToFile(int acc_number) { // Function to save the a
     file.close(); // Close the file
 
     // Check if file exists
-    ifstream file2("C:/Users/vasco/Documents/account_balance.txt");
+    ifstream file2("account_balance.txt");
     if (file2) { // Check if file was created
         cout << "File created successfully.\n";
         cout << "Account balance saved in account_balance.txt\n";
