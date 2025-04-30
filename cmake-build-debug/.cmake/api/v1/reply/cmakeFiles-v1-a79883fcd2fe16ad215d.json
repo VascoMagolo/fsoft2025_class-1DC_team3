@@ -9,6 +9,15 @@
 			"path" : "cmake-build-debug/CMakeFiles/3.30.5/CMakeSystem.cmake"
 		},
 		{
+			"isExternal" : true,
+			"path" : "C:/Users/vasco/.vcpkg-clion/vcpkg/scripts/buildsystems/vcpkg.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDependentOption.cmake"
+		},
+		{
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake"
@@ -149,13 +158,35 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/vasco/.vcpkg-clion/vcpkg/installed/x64-mingw-dynamic/share/nlohmann_json/nlohmann_jsonConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/vasco/.vcpkg-clion/vcpkg/installed/x64-mingw-dynamic/share/nlohmann_json/nlohmann_jsonConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/vasco/.vcpkg-clion/vcpkg/installed/x64-mingw-dynamic/share/nlohmann_json/nlohmann_jsonTargets.cmake"
 		}
 	],
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "C:/Users/vasco/CLionProjects/fsoft2025_class-1DC_team2/cmake-build-debug",
-		"source" : "C:/Users/vasco/CLionProjects/fsoft2025_class-1DC_team2"
+		"build" : "C:/Users/vasco/CLionProjects/fsoft2025_class-1DC_team3/cmake-build-debug",
+		"source" : "C:/Users/vasco/CLionProjects/fsoft2025_class-1DC_team3"
 	},
 	"version" : 
 	{

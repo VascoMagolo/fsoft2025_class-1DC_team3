@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team2
+CMAKE_SOURCE_DIR = C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team2\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team3\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team2\cmake-build-debug\CMakeFiles C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team2\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team3\cmake-build-debug\CMakeFiles C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team3\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team2\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team3\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -116,24 +116,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named fsoft2025_class_1DC_team2
+# Target rules for targets named fsoft2025_class_1DC_team3
 
 # Build rule for target.
-fsoft2025_class_1DC_team2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 fsoft2025_class_1DC_team2
-.PHONY : fsoft2025_class_1DC_team2
+fsoft2025_class_1DC_team3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 fsoft2025_class_1DC_team3
+.PHONY : fsoft2025_class_1DC_team3
 
 # fast build rule for target.
-fsoft2025_class_1DC_team2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team2.dir\build.make CMakeFiles/fsoft2025_class_1DC_team2.dir/build
-.PHONY : fsoft2025_class_1DC_team2/fast
+fsoft2025_class_1DC_team3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/build
+.PHONY : fsoft2025_class_1DC_team3/fast
 
 Project/classes.obj: Project/classes.cpp.obj
 .PHONY : Project/classes.obj
 
 # target to build an object file
 Project/classes.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team2.dir\build.make CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/classes.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/classes.cpp.obj
 .PHONY : Project/classes.cpp.obj
 
 Project/classes.i: Project/classes.cpp.i
@@ -141,7 +141,7 @@ Project/classes.i: Project/classes.cpp.i
 
 # target to preprocess a source file
 Project/classes.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team2.dir\build.make CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/classes.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/classes.cpp.i
 .PHONY : Project/classes.cpp.i
 
 Project/classes.s: Project/classes.cpp.s
@@ -149,39 +149,15 @@ Project/classes.s: Project/classes.cpp.s
 
 # target to generate assembly for a file
 Project/classes.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team2.dir\build.make CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/classes.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/classes.cpp.s
 .PHONY : Project/classes.cpp.s
-
-Project/db_connection.obj: Project/db_connection.cpp.obj
-.PHONY : Project/db_connection.obj
-
-# target to build an object file
-Project/db_connection.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team2.dir\build.make CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/db_connection.cpp.obj
-.PHONY : Project/db_connection.cpp.obj
-
-Project/db_connection.i: Project/db_connection.cpp.i
-.PHONY : Project/db_connection.i
-
-# target to preprocess a source file
-Project/db_connection.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team2.dir\build.make CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/db_connection.cpp.i
-.PHONY : Project/db_connection.cpp.i
-
-Project/db_connection.s: Project/db_connection.cpp.s
-.PHONY : Project/db_connection.s
-
-# target to generate assembly for a file
-Project/db_connection.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team2.dir\build.make CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/db_connection.cpp.s
-.PHONY : Project/db_connection.cpp.s
 
 Project/functions.obj: Project/functions.cpp.obj
 .PHONY : Project/functions.obj
 
 # target to build an object file
 Project/functions.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team2.dir\build.make CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/functions.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/functions.cpp.obj
 .PHONY : Project/functions.cpp.obj
 
 Project/functions.i: Project/functions.cpp.i
@@ -189,7 +165,7 @@ Project/functions.i: Project/functions.cpp.i
 
 # target to preprocess a source file
 Project/functions.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team2.dir\build.make CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/functions.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/functions.cpp.i
 .PHONY : Project/functions.cpp.i
 
 Project/functions.s: Project/functions.cpp.s
@@ -197,7 +173,7 @@ Project/functions.s: Project/functions.cpp.s
 
 # target to generate assembly for a file
 Project/functions.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team2.dir\build.make CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/functions.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/functions.cpp.s
 .PHONY : Project/functions.cpp.s
 
 Project/main.obj: Project/main.cpp.obj
@@ -205,7 +181,7 @@ Project/main.obj: Project/main.cpp.obj
 
 # target to build an object file
 Project/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team2.dir\build.make CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/main.cpp.obj
 .PHONY : Project/main.cpp.obj
 
 Project/main.i: Project/main.cpp.i
@@ -213,7 +189,7 @@ Project/main.i: Project/main.cpp.i
 
 # target to preprocess a source file
 Project/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team2.dir\build.make CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/main.cpp.i
 .PHONY : Project/main.cpp.i
 
 Project/main.s: Project/main.cpp.s
@@ -221,7 +197,7 @@ Project/main.s: Project/main.cpp.s
 
 # target to generate assembly for a file
 Project/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team2.dir\build.make CMakeFiles/fsoft2025_class_1DC_team2.dir/Project/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/main.cpp.s
 .PHONY : Project/main.cpp.s
 
 # Help Target
@@ -232,13 +208,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... fsoft2025_class_1DC_team2
+	@echo ... fsoft2025_class_1DC_team3
 	@echo ... Project/classes.obj
 	@echo ... Project/classes.i
 	@echo ... Project/classes.s
-	@echo ... Project/db_connection.obj
-	@echo ... Project/db_connection.i
-	@echo ... Project/db_connection.s
 	@echo ... Project/functions.obj
 	@echo ... Project/functions.i
 	@echo ... Project/functions.s
