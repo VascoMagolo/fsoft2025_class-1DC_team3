@@ -1,3 +1,0 @@
-Account Number: 41
-Balance: 123
-

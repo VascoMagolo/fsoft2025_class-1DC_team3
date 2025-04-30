@@ -6,5 +6,13 @@
         "balance": 1000.0,
         "name": "John Doe",
         "password": "password123"
+    },
+    {
+        "account_number": 51043,
+        "address": "123",
+        "age": 123,
+        "balance": 123.0,
+        "name": "vasco",
+        "password": "123"
     }
 ]

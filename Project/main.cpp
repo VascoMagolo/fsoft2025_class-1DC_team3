@@ -12,7 +12,7 @@ int main() {
 
     while (true) {
         cout
-                << "Menu\n 1 - Create Account\n 2 - Login into account\n 3 - Json test write\n 4 - Json test read\n0 - Exit\n";
+                << "Menu\n 1 - Create Account\n 2 - Login into account\n 3 - Json test read\n0 - Exit\n";
         cin >> option;
         //menu just for testing, later going to be replace, only being able to choose between create and login
         switch (option) {
@@ -23,9 +23,6 @@ int main() {
                 login();
                 break;
             case 3:
-                write_into_json(123456, 1000.0, 25, "John Doe", "123 Main St", "password123");
-                break;
-            case 4:
                 read_from_json();
                 break;
             case 0:

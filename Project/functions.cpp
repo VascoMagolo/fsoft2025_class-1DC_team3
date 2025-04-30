@@ -5,19 +5,72 @@
 #include <limits>
 #include <fstream>
 #include <cstdlib>
+#include <random>
 #include <ctime>// Library to generate random numbers
 #include <nlohmann/json.hpp>
 
 using namespace std;
 using json = nlohmann::json;
 // Function to create a bank account
+int login_verify(int account_number, const std::string &password) {
+    //read from json file and 'see' if there is any account that matches password and account_number, if yes, calls menu function and passes object otherwise returns false
+
+    return 0;
+}
+
+// Function to display the menu
+void menu() {
+    int option;
+    while (true) {
+        cout
+                << "Menu\n 1 - Deposit\n 2 - Withdraw\n 0 - Exit\n";
+        cin >> option;
+        //menu just for testing, later going to be replace, only being able to choose between create and login
+        switch (option) {
+            case 1:
+                // Call deposit function here
+                cout << "Deposit function called.\n";
+                account.deposit(100); // Example deposit
+                break;
+            case 0:
+                break;
+            default:
+                cout << "Invalid Option.\n";
+                break;
+        }
+    }
+// Function to generate a unique account number
+    int generateUniqueAccountNumber() {
+        // Get current time as seed
+        unsigned seed = static_cast<unsigned>(time(nullptr));
+
+        // Use a proper random number generator
+        mt19937 gen(seed);
+
+        // Generate 5-digit account numbers (10000-99999)
+        uniform_int_distribution<> dist(10000, 99999);
+
+        int newAccountNumber = dist(gen);
+
+        // You could check here if the account number already exists in your system
+        // by trying to load an account with this number
+        try {
+            Bank_Account::loadFromJson(newAccountNumber);
+            // If we get here, account exists, so recursively try again
+            return generateUniqueAccountNumber();
+        } catch (const std::runtime_error &) {
+            // If we get an exception, account doesn't exist, so we can use this number
+            return newAccountNumber;
+        }
+    }
+
 void create_bank_account() {
     string name, address, password;
     int age, op = 0;
     double balance = 0.0;
 
     cout << "Name:\n";
-    cin.ignore(); // Clear the input buffer
+    cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Clear the input buffer
     getline(cin, name); // Get the name
 
     cout << "Age:\n";
@@ -27,8 +80,9 @@ void create_bank_account() {
         cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Clear the input buffer
     }
 
+    cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Clear the buffer after reading age
+
     cout << "Address:\n";
-    cin.ignore(); // Clear the input buffer
     getline(cin, address); // Get the address
 
     cout << "Password:\n";
@@ -36,7 +90,12 @@ void create_bank_account() {
 
     while (op != 1 && op != 2) {
         cout << "Do you want to add balance? \n Yes-1 No-2\n";
-        cin >> op;
+        while (!(cin >> op)) {
+            cout << "Invalid input. Please enter 1 for Yes or 2 for No:\n";
+            cin.clear();
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+        }
+
         if (op == 1) {
             cout << "Add Balance:\n";
             while (!(cin >> balance)) {
@@ -45,81 +104,54 @@ void create_bank_account() {
                 cin.ignore(numeric_limits<streamsize>::max(), '\n');
             }
         } else if (op != 2 && op != 1) {
-            cout << "Invalid\n";
+            cout << "Invalid option. Please enter 1 or 2.\n";
         }
     }
-    Bank_Account account(rand(), balance, age, name, address,
-                         password);// Creates an account with a random account number, later its going to be change by a unique number
-    cout << "Account Created!\n";
-    account.display(); // Display the account number and balance
-    account.saveBalanceToFile(account.account_number); // Save the account balance to a file
+
+    // Generate unique account number
+    int accountNumber = generateUniqueAccountNumber();
+
+    // Create account with generated number
+    Bank_Account account(accountNumber, balance, age, name, address, password);
+
+    // Save account to JSON file
+    account.saveToJson();
+
+    cout << "\nAccount Created Successfully!\n";
+    cout << "Your account number is: " << accountNumber << "\n";
+    cout << "Please remember your account number for future transactions.\n\n";
+
+    cout << "Account Details:\n";
+    account.display(); // Display account details
 }
 
 // Function to login into an account
 int login() {
     //login menu
-
+    string password;
+    int account_number;
+    cout << "Account Number:\n";
+    while (!(cin >> account_number)) {
+        cout << "Invalid input. Please enter a valid account number:\n";
+        cin.clear(); // Clear the error flag
+        cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Clear the input buffer
+    }
+    cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Clear the buffer after reading account number
+    cout << "Password:\n";
+    getline(cin, password); // Get the password
+    //verify if the account number and password are correct
+    if (login_verify(account_number, password)) {
+        cout << "Login Successful!\n";
+        // Call menu function here
+        menu();
+    } else {
+        cout << "Invalid Account Number or Password.\n";
+    }
     return 0;
-}
-
-int login_verify(int account_number, const std::string &password) {
-    //read from json file and 'see' if there is any account that matches password and account_number, if yes, returns true otherwise returns false
-    return 0;
-}
-
-// Function to display the menu
-void menu() {
-
-}
-
-void write_into_json(int account_number, double balance, int age, const std::string &name, const std::string &address,
-                     const std::string &password) {
-    //to implement
-    // Create JSON object directly using variables
-    json Doc = {
-            {"name",           name},
-            {"account_number", account_number},
-            {"balance",        balance},
-            {"age",            age},
-            {"address",        address},
-            {"password",       password}
-    };
-    // Read existing data first
-    json existingData;
-    std::ifstream readFile("output.json");
-    if (readFile.is_open()) {
-        try {
-            if (readFile.peek() != std::ifstream::traits_type::eof()) {
-                readFile >> existingData;
-            }
-        } catch (const json::parse_error &e) {
-            std::cerr << "JSON parse error reading existing file: " << e.what() << std::endl;
-            existingData = json::array(); // Reset to empty array on error
-        }
-        readFile.close();
-    }
-
-    // If it's not an array yet, create one
-    if (!existingData.is_array()) {
-        existingData = json::array();
-    }
-
-    // Add new object to array
-    existingData.push_back(Doc);
-
-    // Write the entire array back to the file
-    std::ofstream writeFile("output.json");
-    if (!writeFile.is_open()) {
-        std::cerr << "Failed to open file for writing!" << std::endl;
-        return;
-    }
-
-    writeFile << existingData.dump(4); // Write with indentation
-    writeFile.close();
 }
 
 void read_from_json() {
-    std::ifstream file("output.json");
+    std::ifstream file("accounts.json");
     if (!file.is_open()) {
         std::cerr << "Failed to open file!" << std::endl;
         return;
