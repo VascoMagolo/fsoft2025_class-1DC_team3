@@ -8,11 +8,19 @@
         "password": "password123"
     },
     {
-        "account_number": 51043,
-        "address": "123",
-        "age": 123,
-        "balance": 123.0,
-        "name": "vasco",
-        "password": "123"
+        "account_number": 12335,
+        "address": "d2131ad",
+        "age": 12,
+        "balance": 0.0,
+        "name": "anto",
+        "password": "vasowe2"
+    },
+    {
+        "account_number": 13054,
+        "address": "porot",
+        "age": 18,
+        "balance": 3003000.0,
+        "name": "pedro guilherme",
+        "password": "123456"
     }
 ]

@@ -8,13 +8,11 @@ using namespace std;
 
 int main() {
     int option;
-    // Inicial menu, later going to changed by a graphical interface
-
+    // Inicial menu, later going to be changed by a graphical interface
     while (true) {
-        cout
-                << "Menu\n 1 - Create Account\n 2 - Login into account\n 3 - Json test read\n0 - Exit\n";
+        cout << "Menu\n 1 - Create Account\n 2 - Login into account\n 3 - Json test read\n 0 - Exit\n";
         cin >> option;
-        //menu just for testing, later going to be replace, only being able to choose between create and login
+
         switch (option) {
             case 1:
                 create_bank_account();

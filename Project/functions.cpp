@@ -11,36 +11,76 @@
 
 using namespace std;
 using json = nlohmann::json;
+
 // Function to create a bank account
 int login_verify(int account_number, const std::string &password) {
     //read from json file and 'see' if there is any account that matches password and account_number, if yes, calls menu function and passes object otherwise returns false
-
-    return 0;
+    try {
+        Bank_Account account = Bank_Account::loadFromJson(account_number);
+        if (account.getAccountPassword() == password) {
+            return 1;
+        } else {
+            cout << "Invalid Account Number or Password.\n";
+            return 0;
+        }
+    } catch (const std::exception &e) {
+        cout << "Login failed: " << e.what() << endl;
+        return 0;
+    }
 }
 
 // Function to display the menu
-void menu() {
+void menu(int account_number) {
     int option;
+    string new_name;
+    Bank_Account account;
+    // Load account from JSON
+    try {
+        account = Bank_Account::loadFromJson(account_number);
+    } catch (const std::runtime_error &e) {
+        cout << "Error loading account: " << e.what() << endl;
+        return;
+    }
     while (true) {
-        cout
-                << "Menu\n 1 - Deposit\n 2 - Withdraw\n 0 - Exit\n";
+        cout << "Menu\n 1 - Deposit\n 2 - Withdraw\n 3 - Change Name \n 4 - Delete Account\n 0 - Exit\n";
         cin >> option;
-        //menu just for testing, later going to be replace, only being able to choose between create and login
         switch (option) {
             case 1:
-                // Call deposit function here
-                cout << "Deposit function called.\n";
-                account.deposit(100); // Example deposit
+                cout << "How much do you intend to deposit?.\n";
+                double deposit_amount;
+                while (!(cin >> deposit_amount)) {
+                    cout << "Invalid input. Please enter a valid amount:\n";
+                    cin.clear(); // Clear the error flag
+                    cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Clear the input buffer
+                }
+                account.deposit(deposit_amount);
+                break;
+            case 2:
+                cout << "How much do you intend to withdraw?.\n";
+                double withdraw_amount;
+                while (!(cin >> withdraw_amount)) {
+                    cout << "Invalid input. Please enter a valid amount:\n";
+                    cin.clear(); // Clear the error flag
+                    cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Clear the input buffer
+                }
+                account.withdraw(withdraw_amount);
+                break;
+            case 3:
+                cout << "Enter new name:\n";
+                cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Clear the input buffer
+                getline(cin, new_name); // Get the new name
+                account.updateName(new_name, account_number);
                 break;
             case 0:
-                break;
+                return;
             default:
                 cout << "Invalid Option.\n";
                 break;
         }
     }
+}
 // Function to generate a unique account number
-    int generateUniqueAccountNumber() {
+int generateUniqueAccountNumber() {
         // Get current time as seed
         unsigned seed = static_cast<unsigned>(time(nullptr));
 
@@ -79,7 +119,10 @@ void create_bank_account() {
         cin.clear(); // Clear the error flag
         cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Clear the input buffer
     }
-
+    if (age < 18) {
+        cout << "You must be at least 18 years old to create an account.\n";
+        return;
+    }
     cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Clear the buffer after reading age
 
     cout << "Address:\n";
@@ -125,29 +168,27 @@ void create_bank_account() {
     account.display(); // Display account details
 }
 
-// Function to login into an account
 int login() {
-    //login menu
     string password;
     int account_number;
     cout << "Account Number:\n";
     while (!(cin >> account_number)) {
         cout << "Invalid input. Please enter a valid account number:\n";
-        cin.clear(); // Clear the error flag
-        cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Clear the input buffer
+        cin.clear();
+        cin.ignore(numeric_limits<streamsize>::max(), '\n');
     }
-    cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Clear the buffer after reading account number
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
     cout << "Password:\n";
-    getline(cin, password); // Get the password
-    //verify if the account number and password are correct
+    getline(cin, password);
+
     if (login_verify(account_number, password)) {
         cout << "Login Successful!\n";
-        // Call menu function here
-        menu();
+        menu(account_number);  // Pass the account number to the menu
+        return 1;
     } else {
-        cout << "Invalid Account Number or Password.\n";
+        cout << "Login failed.\n";
+        return 0;
     }
-    return 0;
 }
 
 void read_from_json() {
