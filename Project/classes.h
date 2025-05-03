@@ -28,6 +28,8 @@ public:
 
     void withdraw(double amount);
 
+    void updateName(const std::string &new_name, int acc_number);
+
     void display() const;
 
     // File operations
@@ -47,6 +49,8 @@ public:
     // Getters
     int getAccountNumber() const { return account_number; }
 
+    std::string getAccountPassword() const { return password; }
+
     double getBalance() const { return balance; }
 
     std::string getName() const { return name; }
@@ -55,6 +59,21 @@ public:
     json toJson() const;
 
     static Bank_Account fromJson(const json &j);
+};
+
+class Admin {
+private:
+    std::string name;
+    std::string password;
+public:
+    // Constructors
+    Admin();
+
+    Admin(const std::string &name, const std::string &password);
+
+    void display() const;
+
+    // Add more admin-specific methods if needed
 };
 
 #endif // CLASSES_H

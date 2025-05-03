@@ -31,6 +31,16 @@ void Bank_Account::withdraw(double amount) {
     }
 }
 
+void Bank_Account::updateName(const std::string &new_name, int acc_number) {
+    if (acc_number != this->account_number) {
+        std::cerr << "Invalid account number." << std::endl;
+        return;
+    }
+    name = new_name;
+    std::cout << "Name updated successfully.\n";
+    saveToJson();
+}
+
 void Bank_Account::display() const {
     std::cout << "Account Number: " << account_number << "\n"
               << "Name: " << name << "\n"
@@ -202,4 +212,16 @@ std::vector<Bank_Account> Bank_Account::loadAllAccounts() {
 
     file.close();
     return accounts;
+}
+
+
+// Admin class methods
+Admin::Admin() = default;
+
+Admin::Admin(const std::string &name, const std::string &password)
+        : name(name), password(password) {}
+
+void Admin::display() const {
+    std::cout << "Admin Name: " << name << "\n"
+              << "Password: " << password << std::endl;
 }
