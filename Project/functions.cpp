@@ -41,6 +41,9 @@ void menu(int account_number) {
         cout << "Error loading account: " << e.what() << endl;
         return;
     }
+    cout << "Welcome, " << account.getName() << "!\n";
+    cout << "Your account number is: " << account.getAccountNumber() << "\n";
+    cout << "Your current balance is: $" << account.getBalance() << "\n";
     while (true) {
         cout << "Menu\n 1 - Deposit\n 2 - Withdraw\n 3 - Change Name \n 4 - Delete Account\n 0 - Exit\n";
         cin >> option;
@@ -213,4 +216,30 @@ void read_from_json() {
     }
 
     file.close();
+}
+
+void admin_area() {
+    // Admin area logic goes here
+    // For example, you can display all accounts or perform admin-specific operations
+    cout << "Admin Area\n";
+    cout << "1 - View All Accounts\n";
+    cout << "2 - Delete Account\n";
+    cout << "0 - Exit\n";
+
+    int option;
+    cin >> option;
+
+    switch (option) {
+        case 1:
+            read_from_json();
+            break;
+        case 2:
+            // Implement delete account logic
+            break;
+        case 0:
+            return;
+        default:
+            cout << "Invalid Option.\n";
+            break;
+    }
 }
