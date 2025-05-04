@@ -7,5 +7,5 @@ int login_verify(int account_number, const std::string &password);
 
 void menu(int account_number); // Function to display the menu
 void read_from_json(); // Function to read from a json file
-
+void admin_area(); // Function to display the admin area
 #endif //FUNCTIONS_H

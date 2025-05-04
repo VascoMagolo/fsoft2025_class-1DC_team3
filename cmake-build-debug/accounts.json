@@ -22,5 +22,13 @@
         "balance": 3003000.0,
         "name": "pedro guilherme",
         "password": "123456"
+    },
+    {
+        "account_number": 51740,
+        "address": "porot",
+        "age": 18,
+        "balance": 10.0,
+        "name": "joao",
+        "password": "1231"
     }
 ]
