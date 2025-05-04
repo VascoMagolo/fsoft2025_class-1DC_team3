@@ -59,10 +59,23 @@ A simple yet functional Bank Account Management System implemented in C++ that s
 * JSON data integrity checks
 
 ## Getting Started
-1. **Prerequisites**
-   * C++ compiler supporting C++17
-   * nlohmann/json library
-   * GUI library (to be determined)
+
+### Prerequisites
+- C++17-compatible compiler
+- CMake ≥ 3.15
+- Git
+- [vcpkg](https://github.com/microsoft/vcpkg)
+
+1. **Install Dependencies**
+   ```bash
+   # Clone and bootstrap vcpkg
+   git clone https://github.com/microsoft/vcpkg.git
+   cd vcpkg
+   ./bootstrap-vcpkg.sh
+   
+   # Install nlohmann/json
+   ./vcpkg install nlohmann-json
+   ```
 
 2. **Installation**
    ```bash
@@ -72,13 +85,13 @@ A simple yet functional Bank Account Management System implemented in C++ that s
    
    # Build the project (instructions may vary based on chosen GUI library)
    mkdir build && cd build
-   cmake ..
+   cmake .. -DCMAKE_TOOLCHAIN_FILE=../vcpkg/scripts/buildsystems/vcpkg.cmake
    make
    ```
 
 3. **Running the Application**
    ```bash
-   ./bank_account_system
+   ./fsoft2025_class_1DC_team3
    ```
 
 ## Current Status
