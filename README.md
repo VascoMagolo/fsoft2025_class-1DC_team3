@@ -63,6 +63,7 @@ A simple yet functional Bank Account Management System implemented in C++ that s
 - C++17-compatible compiler
 - CMake ≥ 3.15
 - Git
+- Visual Studio C++
 - [vcpkg](https://github.com/microsoft/vcpkg)
 
 1. **Install Dependencies**
