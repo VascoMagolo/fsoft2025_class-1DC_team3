@@ -7,7 +7,6 @@
 * Vasco Magolo (1231562)
 * Andre Moreira (1240567)
 * Francisco Silva (1230985)
-* Bernardo Meireles (1232024)
 
 ## 📌 Project Overview
 A simple yet functional Bank Account Management System implemented in C++ that stores account data in JSON files. This application demonstrates our understanding of Object-Oriented Programming (OOP) principles, file handling using JSON, and implementation of a user-friendly Graphical User Interface (GUI).
@@ -71,10 +70,10 @@ A simple yet functional Bank Account Management System implemented in C++ that s
    # Clone and bootstrap vcpkg
    git clone https://github.com/microsoft/vcpkg.git
    cd vcpkg
-   ./bootstrap-vcpkg.sh
+   .\bootstrap-vcpkg.bat
    
    # Install nlohmann/json
-   ./vcpkg install nlohmann-json
+   .\vcpkg install nlohmann-json
    ```
 
 2. **Installation**
