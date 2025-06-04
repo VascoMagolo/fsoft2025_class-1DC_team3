@@ -110,4 +110,3 @@ This project is under active development. We are currently implementing:
 * Vasco Magolo
 * Andre Moreira
 * Francisco Silva
-* Bernardo Meireles
