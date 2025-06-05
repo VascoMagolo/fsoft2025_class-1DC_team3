@@ -80,12 +80,12 @@ clean: CMakeFiles/fsoft2025_class_1DC_team3.dir/clean
 CMakeFiles/fsoft2025_class_1DC_team3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team3\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4 "Built target fsoft2025_class_1DC_team3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team3\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target fsoft2025_class_1DC_team3"
 .PHONY : CMakeFiles/fsoft2025_class_1DC_team3.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/fsoft2025_class_1DC_team3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team3\cmake-build-debug\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team3\cmake-build-debug\CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/fsoft2025_class_1DC_team3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team3\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/fsoft2025_class_1DC_team3.dir/rule

@@ -8,6 +8,12 @@ add_executable(fsoft2025_class_1DC_team3
         Project/main.cpp
         Project/classes.cpp
         Project/functions.cpp
+        Project/controllers/AccountController.cpp
+        Project/controllers/AdminController.cpp
+        Project/data/AccountRepository.cpp
+        Project/views/ConsoleView.cpp
+        Project/views/ReceiptView.cpp
+        Project/services/PasswordServices.cpp
 )
 
 find_package(nlohmann_json CONFIG REQUIRED)
