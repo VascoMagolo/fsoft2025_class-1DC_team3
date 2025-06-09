@@ -218,6 +218,57 @@ void read_from_json() {
     file.close();
 }
 
+void delete_account() {
+    int account_number;
+    cout << "Enter the account number to delete:\n";
+    while (!(cin >> account_number)) {
+        cout << "Invalid input. Please enter a valid account number:\n";
+        cin.clear();
+        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+    }
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+
+    // Open and parse the JSON file
+    std::ifstream file_in("accounts.json");
+    if (!file_in.is_open()) {
+        cout << "Failed to open accounts.json!\n";
+        return;
+    }
+    json accounts;
+    try {
+        file_in >> accounts;
+    } catch (const json::parse_error &e) {
+        cout << "JSON parse error: " << e.what() << endl;
+        file_in.close();
+        return;
+    }
+    file_in.close();
+
+    // Find and remove the account
+    bool found = false;
+    for (auto it = accounts.begin(); it != accounts.end(); ++it) {
+        if ((*it)["account_number"] == account_number) {
+            accounts.erase(it);
+            found = true;
+            break;
+        }
+    }
+
+    if (found) {
+        // Save the updated list back to the file
+        std::ofstream file_out("accounts.json");
+        if (!file_out.is_open()) {
+            cout << "Failed to write to accounts.json!\n";
+            return;
+        }
+        file_out << accounts.dump(4); // Pretty print with 4 spaces
+        file_out.close();
+        cout << "Account deleted successfully.\n";
+    } else {
+        cout << "Account not found.\n";
+    }
+}
+
 void admin_area() {
     // Admin area logic goes here
     // For example, you can display all accounts or perform admin-specific operations
@@ -234,7 +285,7 @@ void admin_area() {
             read_from_json();
             break;
         case 2:
-            // Implement delete account logic
+            delete_account();
             break;
         case 0:
             return;
@@ -243,3 +294,4 @@ void admin_area() {
             break;
     }
 }
+
