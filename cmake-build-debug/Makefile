@@ -272,6 +272,30 @@ Project/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/main.cpp.s
 .PHONY : Project/main.cpp.s
 
+Project/main2.obj: Project/main2.cpp.obj
+.PHONY : Project/main2.obj
+
+# target to build an object file
+Project/main2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/main2.cpp.obj
+.PHONY : Project/main2.cpp.obj
+
+Project/main2.i: Project/main2.cpp.i
+.PHONY : Project/main2.i
+
+# target to preprocess a source file
+Project/main2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/main2.cpp.i
+.PHONY : Project/main2.cpp.i
+
+Project/main2.s: Project/main2.cpp.s
+.PHONY : Project/main2.s
+
+# target to generate assembly for a file
+Project/main2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/main2.cpp.s
+.PHONY : Project/main2.cpp.s
+
 Project/services/PasswordServices.obj: Project/services/PasswordServices.cpp.obj
 .PHONY : Project/services/PasswordServices.obj
 
@@ -371,6 +395,9 @@ help:
 	@echo ... Project/main.obj
 	@echo ... Project/main.i
 	@echo ... Project/main.s
+	@echo ... Project/main2.obj
+	@echo ... Project/main2.i
+	@echo ... Project/main2.s
 	@echo ... Project/services/PasswordServices.obj
 	@echo ... Project/services/PasswordServices.i
 	@echo ... Project/services/PasswordServices.s

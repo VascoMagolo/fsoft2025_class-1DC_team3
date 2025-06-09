@@ -14,6 +14,7 @@ add_executable(fsoft2025_class_1DC_team3
         Project/views/ConsoleView.cpp
         Project/views/ReceiptView.cpp
         Project/services/PasswordServices.cpp
+        Project/main2.cpp
 )
 
 find_package(nlohmann_json CONFIG REQUIRED)
