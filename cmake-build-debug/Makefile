@@ -152,6 +152,78 @@ Project/classes.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/classes.cpp.s
 .PHONY : Project/classes.cpp.s
 
+Project/controllers/AccountController.obj: Project/controllers/AccountController.cpp.obj
+.PHONY : Project/controllers/AccountController.obj
+
+# target to build an object file
+Project/controllers/AccountController.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/controllers/AccountController.cpp.obj
+.PHONY : Project/controllers/AccountController.cpp.obj
+
+Project/controllers/AccountController.i: Project/controllers/AccountController.cpp.i
+.PHONY : Project/controllers/AccountController.i
+
+# target to preprocess a source file
+Project/controllers/AccountController.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/controllers/AccountController.cpp.i
+.PHONY : Project/controllers/AccountController.cpp.i
+
+Project/controllers/AccountController.s: Project/controllers/AccountController.cpp.s
+.PHONY : Project/controllers/AccountController.s
+
+# target to generate assembly for a file
+Project/controllers/AccountController.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/controllers/AccountController.cpp.s
+.PHONY : Project/controllers/AccountController.cpp.s
+
+Project/controllers/AdminController.obj: Project/controllers/AdminController.cpp.obj
+.PHONY : Project/controllers/AdminController.obj
+
+# target to build an object file
+Project/controllers/AdminController.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/controllers/AdminController.cpp.obj
+.PHONY : Project/controllers/AdminController.cpp.obj
+
+Project/controllers/AdminController.i: Project/controllers/AdminController.cpp.i
+.PHONY : Project/controllers/AdminController.i
+
+# target to preprocess a source file
+Project/controllers/AdminController.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/controllers/AdminController.cpp.i
+.PHONY : Project/controllers/AdminController.cpp.i
+
+Project/controllers/AdminController.s: Project/controllers/AdminController.cpp.s
+.PHONY : Project/controllers/AdminController.s
+
+# target to generate assembly for a file
+Project/controllers/AdminController.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/controllers/AdminController.cpp.s
+.PHONY : Project/controllers/AdminController.cpp.s
+
+Project/data/AccountRepository.obj: Project/data/AccountRepository.cpp.obj
+.PHONY : Project/data/AccountRepository.obj
+
+# target to build an object file
+Project/data/AccountRepository.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/data/AccountRepository.cpp.obj
+.PHONY : Project/data/AccountRepository.cpp.obj
+
+Project/data/AccountRepository.i: Project/data/AccountRepository.cpp.i
+.PHONY : Project/data/AccountRepository.i
+
+# target to preprocess a source file
+Project/data/AccountRepository.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/data/AccountRepository.cpp.i
+.PHONY : Project/data/AccountRepository.cpp.i
+
+Project/data/AccountRepository.s: Project/data/AccountRepository.cpp.s
+.PHONY : Project/data/AccountRepository.s
+
+# target to generate assembly for a file
+Project/data/AccountRepository.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/data/AccountRepository.cpp.s
+.PHONY : Project/data/AccountRepository.cpp.s
+
 Project/functions.obj: Project/functions.cpp.obj
 .PHONY : Project/functions.obj
 
@@ -200,6 +272,102 @@ Project/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/main.cpp.s
 .PHONY : Project/main.cpp.s
 
+Project/main2.obj: Project/main2.cpp.obj
+.PHONY : Project/main2.obj
+
+# target to build an object file
+Project/main2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/main2.cpp.obj
+.PHONY : Project/main2.cpp.obj
+
+Project/main2.i: Project/main2.cpp.i
+.PHONY : Project/main2.i
+
+# target to preprocess a source file
+Project/main2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/main2.cpp.i
+.PHONY : Project/main2.cpp.i
+
+Project/main2.s: Project/main2.cpp.s
+.PHONY : Project/main2.s
+
+# target to generate assembly for a file
+Project/main2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/main2.cpp.s
+.PHONY : Project/main2.cpp.s
+
+Project/services/PasswordServices.obj: Project/services/PasswordServices.cpp.obj
+.PHONY : Project/services/PasswordServices.obj
+
+# target to build an object file
+Project/services/PasswordServices.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/services/PasswordServices.cpp.obj
+.PHONY : Project/services/PasswordServices.cpp.obj
+
+Project/services/PasswordServices.i: Project/services/PasswordServices.cpp.i
+.PHONY : Project/services/PasswordServices.i
+
+# target to preprocess a source file
+Project/services/PasswordServices.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/services/PasswordServices.cpp.i
+.PHONY : Project/services/PasswordServices.cpp.i
+
+Project/services/PasswordServices.s: Project/services/PasswordServices.cpp.s
+.PHONY : Project/services/PasswordServices.s
+
+# target to generate assembly for a file
+Project/services/PasswordServices.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/services/PasswordServices.cpp.s
+.PHONY : Project/services/PasswordServices.cpp.s
+
+Project/views/ConsoleView.obj: Project/views/ConsoleView.cpp.obj
+.PHONY : Project/views/ConsoleView.obj
+
+# target to build an object file
+Project/views/ConsoleView.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/views/ConsoleView.cpp.obj
+.PHONY : Project/views/ConsoleView.cpp.obj
+
+Project/views/ConsoleView.i: Project/views/ConsoleView.cpp.i
+.PHONY : Project/views/ConsoleView.i
+
+# target to preprocess a source file
+Project/views/ConsoleView.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/views/ConsoleView.cpp.i
+.PHONY : Project/views/ConsoleView.cpp.i
+
+Project/views/ConsoleView.s: Project/views/ConsoleView.cpp.s
+.PHONY : Project/views/ConsoleView.s
+
+# target to generate assembly for a file
+Project/views/ConsoleView.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/views/ConsoleView.cpp.s
+.PHONY : Project/views/ConsoleView.cpp.s
+
+Project/views/ReceiptView.obj: Project/views/ReceiptView.cpp.obj
+.PHONY : Project/views/ReceiptView.obj
+
+# target to build an object file
+Project/views/ReceiptView.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/views/ReceiptView.cpp.obj
+.PHONY : Project/views/ReceiptView.cpp.obj
+
+Project/views/ReceiptView.i: Project/views/ReceiptView.cpp.i
+.PHONY : Project/views/ReceiptView.i
+
+# target to preprocess a source file
+Project/views/ReceiptView.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/views/ReceiptView.cpp.i
+.PHONY : Project/views/ReceiptView.cpp.i
+
+Project/views/ReceiptView.s: Project/views/ReceiptView.cpp.s
+.PHONY : Project/views/ReceiptView.s
+
+# target to generate assembly for a file
+Project/views/ReceiptView.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/views/ReceiptView.cpp.s
+.PHONY : Project/views/ReceiptView.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -212,12 +380,33 @@ help:
 	@echo ... Project/classes.obj
 	@echo ... Project/classes.i
 	@echo ... Project/classes.s
+	@echo ... Project/controllers/AccountController.obj
+	@echo ... Project/controllers/AccountController.i
+	@echo ... Project/controllers/AccountController.s
+	@echo ... Project/controllers/AdminController.obj
+	@echo ... Project/controllers/AdminController.i
+	@echo ... Project/controllers/AdminController.s
+	@echo ... Project/data/AccountRepository.obj
+	@echo ... Project/data/AccountRepository.i
+	@echo ... Project/data/AccountRepository.s
 	@echo ... Project/functions.obj
 	@echo ... Project/functions.i
 	@echo ... Project/functions.s
 	@echo ... Project/main.obj
 	@echo ... Project/main.i
 	@echo ... Project/main.s
+	@echo ... Project/main2.obj
+	@echo ... Project/main2.i
+	@echo ... Project/main2.s
+	@echo ... Project/services/PasswordServices.obj
+	@echo ... Project/services/PasswordServices.i
+	@echo ... Project/services/PasswordServices.s
+	@echo ... Project/views/ConsoleView.obj
+	@echo ... Project/views/ConsoleView.i
+	@echo ... Project/views/ConsoleView.s
+	@echo ... Project/views/ReceiptView.obj
+	@echo ... Project/views/ReceiptView.i
+	@echo ... Project/views/ReceiptView.s
 .PHONY : help
 
 
