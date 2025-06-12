@@ -224,6 +224,30 @@ Project/data/AccountRepository.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/data/AccountRepository.cpp.s
 .PHONY : Project/data/AccountRepository.cpp.s
 
+Project/external_functions/functions.obj: Project/external_functions/functions.cpp.obj
+.PHONY : Project/external_functions/functions.obj
+
+# target to build an object file
+Project/external_functions/functions.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/external_functions/functions.cpp.obj
+.PHONY : Project/external_functions/functions.cpp.obj
+
+Project/external_functions/functions.i: Project/external_functions/functions.cpp.i
+.PHONY : Project/external_functions/functions.i
+
+# target to preprocess a source file
+Project/external_functions/functions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/external_functions/functions.cpp.i
+.PHONY : Project/external_functions/functions.cpp.i
+
+Project/external_functions/functions.s: Project/external_functions/functions.cpp.s
+.PHONY : Project/external_functions/functions.s
+
+# target to generate assembly for a file
+Project/external_functions/functions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/external_functions/functions.cpp.s
+.PHONY : Project/external_functions/functions.cpp.s
+
 Project/functions.obj: Project/functions.cpp.obj
 .PHONY : Project/functions.obj
 
@@ -389,6 +413,9 @@ help:
 	@echo ... Project/data/AccountRepository.obj
 	@echo ... Project/data/AccountRepository.i
 	@echo ... Project/data/AccountRepository.s
+	@echo ... Project/external_functions/functions.obj
+	@echo ... Project/external_functions/functions.i
+	@echo ... Project/external_functions/functions.s
 	@echo ... Project/functions.obj
 	@echo ... Project/functions.i
 	@echo ... Project/functions.s
