@@ -19,40 +19,32 @@ private:
 public:
     // Constructors
     BankAccount();
-
     BankAccount(int accountNumber, double balance, int age, const std::string &name,
                 const std::string &address, const std::string &password);
 
     // Account operations (business logic)
     bool deposit(double amount);
-
     bool withdraw(double amount);
 
     // Getters
     int getAccountNumber() const { return accountNumber; }
-
     double getBalance() const { return balance; }
-
     int getAge() const { return age; }
-
     std::string getName() const { return name; }
-
     std::string getAddress() const { return address; }
-
     std::string getPassword() const { return password; }
 
     // Setters
-    void setName(const std::string &newName) { name = newName; }
+    void updateName(const std::string &newName) { name = newName; }
 
-    void setAddress(const std::string &newAddress) { address = newAddress; }
+    void updateAddress(const std::string &newAddress) { address = newAddress; }
 
-    void setAge(int newAge) { age = newAge; }
+    void updateAge(int newAge) { age = newAge; }
 
-    void setPassword(const std::string &newPassword) { password = newPassword; }
+    void updatePassword(const std::string &newPassword) { password = newPassword; }
 
     // JSON serialization
     json toJson() const;
-
     static BankAccount fromJson(const json &j);
 };
 

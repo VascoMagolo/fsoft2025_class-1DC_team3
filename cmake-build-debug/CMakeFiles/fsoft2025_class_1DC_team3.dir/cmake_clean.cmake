@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/controllers/AccountController.cpp.obj.d"
   "CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/controllers/AdminController.cpp.obj"
   "CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/controllers/AdminController.cpp.obj.d"
+  "CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/controllers/MainController.cpp.obj"
+  "CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/controllers/MainController.cpp.obj.d"
   "CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/data/AccountRepository.cpp.obj"
   "CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/data/AccountRepository.cpp.obj.d"
   "CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/functions.cpp.obj"
