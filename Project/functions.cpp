@@ -295,3 +295,57 @@ void admin_area() {
     }
 }
 
+// Function to update a user's account name
+void updateUserAccount() {
+    int account_number;
+    string new_name;
+    cout << "Enter the account number to update:\n";
+    while (!(cin >> account_number)) {
+        cout << "Invalid input. Please enter a valid account number:\n";
+        cin.clear();
+        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+    }
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+
+    // Load all accounts from JSON
+    std::ifstream file_in("accounts.json");
+    if (!file_in.is_open()) {
+        cout << "Failed to open accounts.json!\n";
+        return;
+    }
+    json accounts;
+    try {
+        file_in >> accounts;
+    } catch (const json::parse_error &e) {
+        cout << "JSON parse error: " << e.what() << endl;
+        file_in.close();
+        return;
+    }
+    file_in.close();
+
+    // Find the account
+    bool found = false;
+    for (auto& account : accounts) {
+        if (account["account_number"] == account_number) {
+            cout << "Enter new name:\n";
+            getline(cin, new_name);
+            account["name"] = new_name;
+            found = true;
+            break;
+        }
+    }
+
+    if (found) {
+        std::ofstream file_out("accounts.json");
+        if (!file_out.is_open()) {
+            cout << "Failed to write to accounts.json!\n";
+            return;
+        }
+        file_out << accounts.dump(4);
+        file_out.close();
+        cout << "Account name updated successfully.\n";
+    } else {
+        cout << "Account not found.\n";
+    }
+}
+
