@@ -8,21 +8,16 @@
 
 class AccountRepository {
 private:
-    std::string dataPath;
     std::string accountsFile;
 
 public:
-    AccountRepository(const std::string &path = "data/");
+    AccountRepository(const std::string &filename = "accounts.json");
 
     // Account operations
     bool saveAccount(const BankAccount &account);
-
     BankAccount loadAccount(int accountNumber);
-
     std::vector<BankAccount> loadAllAccounts();
-
     bool deleteAccount(int accountNumber);
-
     bool accountExists(int accountNumber);
 
     // Utility functions
