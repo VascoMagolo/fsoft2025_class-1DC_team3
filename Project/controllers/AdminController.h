@@ -17,13 +17,10 @@ public:
 
     // Admin operations
     bool authenticateAdmin(const std::string &password);
-
+    bool authenticateAdmin();
     void runAdminMenu();
-
     void viewAllAccounts();
-
     void deleteUserAccount();
-
     void updateUserAccount();
 };
 

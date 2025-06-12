@@ -200,6 +200,30 @@ Project/controllers/AdminController.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/controllers/AdminController.cpp.s
 .PHONY : Project/controllers/AdminController.cpp.s
 
+Project/controllers/MainController.obj: Project/controllers/MainController.cpp.obj
+.PHONY : Project/controllers/MainController.obj
+
+# target to build an object file
+Project/controllers/MainController.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/controllers/MainController.cpp.obj
+.PHONY : Project/controllers/MainController.cpp.obj
+
+Project/controllers/MainController.i: Project/controllers/MainController.cpp.i
+.PHONY : Project/controllers/MainController.i
+
+# target to preprocess a source file
+Project/controllers/MainController.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/controllers/MainController.cpp.i
+.PHONY : Project/controllers/MainController.cpp.i
+
+Project/controllers/MainController.s: Project/controllers/MainController.cpp.s
+.PHONY : Project/controllers/MainController.s
+
+# target to generate assembly for a file
+Project/controllers/MainController.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/controllers/MainController.cpp.s
+.PHONY : Project/controllers/MainController.cpp.s
+
 Project/data/AccountRepository.obj: Project/data/AccountRepository.cpp.obj
 .PHONY : Project/data/AccountRepository.obj
 
@@ -223,6 +247,30 @@ Project/data/AccountRepository.s: Project/data/AccountRepository.cpp.s
 Project/data/AccountRepository.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/data/AccountRepository.cpp.s
 .PHONY : Project/data/AccountRepository.cpp.s
+
+Project/external_functions/functions.obj: Project/external_functions/functions.cpp.obj
+.PHONY : Project/external_functions/functions.obj
+
+# target to build an object file
+Project/external_functions/functions.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/external_functions/functions.cpp.obj
+.PHONY : Project/external_functions/functions.cpp.obj
+
+Project/external_functions/functions.i: Project/external_functions/functions.cpp.i
+.PHONY : Project/external_functions/functions.i
+
+# target to preprocess a source file
+Project/external_functions/functions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/external_functions/functions.cpp.i
+.PHONY : Project/external_functions/functions.cpp.i
+
+Project/external_functions/functions.s: Project/external_functions/functions.cpp.s
+.PHONY : Project/external_functions/functions.s
+
+# target to generate assembly for a file
+Project/external_functions/functions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/external_functions/functions.cpp.s
+.PHONY : Project/external_functions/functions.cpp.s
 
 Project/functions.obj: Project/functions.cpp.obj
 .PHONY : Project/functions.obj
@@ -386,9 +434,15 @@ help:
 	@echo ... Project/controllers/AdminController.obj
 	@echo ... Project/controllers/AdminController.i
 	@echo ... Project/controllers/AdminController.s
+	@echo ... Project/controllers/MainController.obj
+	@echo ... Project/controllers/MainController.i
+	@echo ... Project/controllers/MainController.s
 	@echo ... Project/data/AccountRepository.obj
 	@echo ... Project/data/AccountRepository.i
 	@echo ... Project/data/AccountRepository.s
+	@echo ... Project/external_functions/functions.obj
+	@echo ... Project/external_functions/functions.i
+	@echo ... Project/external_functions/functions.s
 	@echo ... Project/functions.obj
 	@echo ... Project/functions.i
 	@echo ... Project/functions.s

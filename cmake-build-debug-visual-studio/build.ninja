@@ -49,14 +49,6 @@ cmake_ninja_workdir = C$:\Users\franc\CLionProjects\fsoft2025_class-1DC_team3\cm
 
 build cmake_object_order_depends_target_fsoft2025_class_1DC_team3: phony || .
 
-build CMakeFiles\fsoft2025_class_1DC_team3.dir\Project\main.cpp.obj: CXX_COMPILER__fsoft2025_class_1DC_team3_unscanned_Debug C$:\Users\franc\CLionProjects\fsoft2025_class-1DC_team3\Project\main.cpp || cmake_object_order_depends_target_fsoft2025_class_1DC_team3
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20
-  INCLUDES = -external:IC:\Users\franc\vcpkg\installed\x64-windows\include -external:W0
-  OBJECT_DIR = CMakeFiles\fsoft2025_class_1DC_team3.dir
-  OBJECT_FILE_DIR = CMakeFiles\fsoft2025_class_1DC_team3.dir\Project
-  TARGET_COMPILE_PDB = CMakeFiles\fsoft2025_class_1DC_team3.dir\
-  TARGET_PDB = fsoft2025_class_1DC_team3.pdb
-
 build CMakeFiles\fsoft2025_class_1DC_team3.dir\Project\classes.cpp.obj: CXX_COMPILER__fsoft2025_class_1DC_team3_unscanned_Debug C$:\Users\franc\CLionProjects\fsoft2025_class-1DC_team3\Project\classes.cpp || cmake_object_order_depends_target_fsoft2025_class_1DC_team3
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20
   INCLUDES = -external:IC:\Users\franc\vcpkg\installed\x64-windows\include -external:W0
@@ -73,6 +65,86 @@ build CMakeFiles\fsoft2025_class_1DC_team3.dir\Project\functions.cpp.obj: CXX_CO
   TARGET_COMPILE_PDB = CMakeFiles\fsoft2025_class_1DC_team3.dir\
   TARGET_PDB = fsoft2025_class_1DC_team3.pdb
 
+build CMakeFiles\fsoft2025_class_1DC_team3.dir\Project\controllers\AccountController.cpp.obj: CXX_COMPILER__fsoft2025_class_1DC_team3_unscanned_Debug C$:\Users\franc\CLionProjects\fsoft2025_class-1DC_team3\Project\controllers\AccountController.cpp || cmake_object_order_depends_target_fsoft2025_class_1DC_team3
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20
+  INCLUDES = -external:IC:\Users\franc\vcpkg\installed\x64-windows\include -external:W0
+  OBJECT_DIR = CMakeFiles\fsoft2025_class_1DC_team3.dir
+  OBJECT_FILE_DIR = CMakeFiles\fsoft2025_class_1DC_team3.dir\Project\controllers
+  TARGET_COMPILE_PDB = CMakeFiles\fsoft2025_class_1DC_team3.dir\
+  TARGET_PDB = fsoft2025_class_1DC_team3.pdb
+
+build CMakeFiles\fsoft2025_class_1DC_team3.dir\Project\controllers\AdminController.cpp.obj: CXX_COMPILER__fsoft2025_class_1DC_team3_unscanned_Debug C$:\Users\franc\CLionProjects\fsoft2025_class-1DC_team3\Project\controllers\AdminController.cpp || cmake_object_order_depends_target_fsoft2025_class_1DC_team3
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20
+  INCLUDES = -external:IC:\Users\franc\vcpkg\installed\x64-windows\include -external:W0
+  OBJECT_DIR = CMakeFiles\fsoft2025_class_1DC_team3.dir
+  OBJECT_FILE_DIR = CMakeFiles\fsoft2025_class_1DC_team3.dir\Project\controllers
+  TARGET_COMPILE_PDB = CMakeFiles\fsoft2025_class_1DC_team3.dir\
+  TARGET_PDB = fsoft2025_class_1DC_team3.pdb
+
+build CMakeFiles\fsoft2025_class_1DC_team3.dir\Project\data\AccountRepository.cpp.obj: CXX_COMPILER__fsoft2025_class_1DC_team3_unscanned_Debug C$:\Users\franc\CLionProjects\fsoft2025_class-1DC_team3\Project\data\AccountRepository.cpp || cmake_object_order_depends_target_fsoft2025_class_1DC_team3
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20
+  INCLUDES = -external:IC:\Users\franc\vcpkg\installed\x64-windows\include -external:W0
+  OBJECT_DIR = CMakeFiles\fsoft2025_class_1DC_team3.dir
+  OBJECT_FILE_DIR = CMakeFiles\fsoft2025_class_1DC_team3.dir\Project\data
+  TARGET_COMPILE_PDB = CMakeFiles\fsoft2025_class_1DC_team3.dir\
+  TARGET_PDB = fsoft2025_class_1DC_team3.pdb
+
+build CMakeFiles\fsoft2025_class_1DC_team3.dir\Project\views\ConsoleView.cpp.obj: CXX_COMPILER__fsoft2025_class_1DC_team3_unscanned_Debug C$:\Users\franc\CLionProjects\fsoft2025_class-1DC_team3\Project\views\ConsoleView.cpp || cmake_object_order_depends_target_fsoft2025_class_1DC_team3
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20
+  INCLUDES = -external:IC:\Users\franc\vcpkg\installed\x64-windows\include -external:W0
+  OBJECT_DIR = CMakeFiles\fsoft2025_class_1DC_team3.dir
+  OBJECT_FILE_DIR = CMakeFiles\fsoft2025_class_1DC_team3.dir\Project\views
+  TARGET_COMPILE_PDB = CMakeFiles\fsoft2025_class_1DC_team3.dir\
+  TARGET_PDB = fsoft2025_class_1DC_team3.pdb
+
+build CMakeFiles\fsoft2025_class_1DC_team3.dir\Project\views\ReceiptView.cpp.obj: CXX_COMPILER__fsoft2025_class_1DC_team3_unscanned_Debug C$:\Users\franc\CLionProjects\fsoft2025_class-1DC_team3\Project\views\ReceiptView.cpp || cmake_object_order_depends_target_fsoft2025_class_1DC_team3
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20
+  INCLUDES = -external:IC:\Users\franc\vcpkg\installed\x64-windows\include -external:W0
+  OBJECT_DIR = CMakeFiles\fsoft2025_class_1DC_team3.dir
+  OBJECT_FILE_DIR = CMakeFiles\fsoft2025_class_1DC_team3.dir\Project\views
+  TARGET_COMPILE_PDB = CMakeFiles\fsoft2025_class_1DC_team3.dir\
+  TARGET_PDB = fsoft2025_class_1DC_team3.pdb
+
+build CMakeFiles\fsoft2025_class_1DC_team3.dir\Project\services\PasswordServices.cpp.obj: CXX_COMPILER__fsoft2025_class_1DC_team3_unscanned_Debug C$:\Users\franc\CLionProjects\fsoft2025_class-1DC_team3\Project\services\PasswordServices.cpp || cmake_object_order_depends_target_fsoft2025_class_1DC_team3
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20
+  INCLUDES = -external:IC:\Users\franc\vcpkg\installed\x64-windows\include -external:W0
+  OBJECT_DIR = CMakeFiles\fsoft2025_class_1DC_team3.dir
+  OBJECT_FILE_DIR = CMakeFiles\fsoft2025_class_1DC_team3.dir\Project\services
+  TARGET_COMPILE_PDB = CMakeFiles\fsoft2025_class_1DC_team3.dir\
+  TARGET_PDB = fsoft2025_class_1DC_team3.pdb
+
+build CMakeFiles\fsoft2025_class_1DC_team3.dir\Project\main2.cpp.obj: CXX_COMPILER__fsoft2025_class_1DC_team3_unscanned_Debug C$:\Users\franc\CLionProjects\fsoft2025_class-1DC_team3\Project\main2.cpp || cmake_object_order_depends_target_fsoft2025_class_1DC_team3
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20
+  INCLUDES = -external:IC:\Users\franc\vcpkg\installed\x64-windows\include -external:W0
+  OBJECT_DIR = CMakeFiles\fsoft2025_class_1DC_team3.dir
+  OBJECT_FILE_DIR = CMakeFiles\fsoft2025_class_1DC_team3.dir\Project
+  TARGET_COMPILE_PDB = CMakeFiles\fsoft2025_class_1DC_team3.dir\
+  TARGET_PDB = fsoft2025_class_1DC_team3.pdb
+
+build CMakeFiles\fsoft2025_class_1DC_team3.dir\Project\external_functions\functions.cpp.obj: CXX_COMPILER__fsoft2025_class_1DC_team3_unscanned_Debug C$:\Users\franc\CLionProjects\fsoft2025_class-1DC_team3\Project\external_functions\functions.cpp || cmake_object_order_depends_target_fsoft2025_class_1DC_team3
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20
+  INCLUDES = -external:IC:\Users\franc\vcpkg\installed\x64-windows\include -external:W0
+  OBJECT_DIR = CMakeFiles\fsoft2025_class_1DC_team3.dir
+  OBJECT_FILE_DIR = CMakeFiles\fsoft2025_class_1DC_team3.dir\Project\external_functions
+  TARGET_COMPILE_PDB = CMakeFiles\fsoft2025_class_1DC_team3.dir\
+  TARGET_PDB = fsoft2025_class_1DC_team3.pdb
+
+build CMakeFiles\fsoft2025_class_1DC_team3.dir\Project\controllers\MainController.cpp.obj: CXX_COMPILER__fsoft2025_class_1DC_team3_unscanned_Debug C$:\Users\franc\CLionProjects\fsoft2025_class-1DC_team3\Project\controllers\MainController.cpp || cmake_object_order_depends_target_fsoft2025_class_1DC_team3
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20
+  INCLUDES = -external:IC:\Users\franc\vcpkg\installed\x64-windows\include -external:W0
+  OBJECT_DIR = CMakeFiles\fsoft2025_class_1DC_team3.dir
+  OBJECT_FILE_DIR = CMakeFiles\fsoft2025_class_1DC_team3.dir\Project\controllers
+  TARGET_COMPILE_PDB = CMakeFiles\fsoft2025_class_1DC_team3.dir\
+  TARGET_PDB = fsoft2025_class_1DC_team3.pdb
+
+build CMakeFiles\fsoft2025_class_1DC_team3.dir\Project\models\BankAccount.cpp.obj: CXX_COMPILER__fsoft2025_class_1DC_team3_unscanned_Debug C$:\Users\franc\CLionProjects\fsoft2025_class-1DC_team3\Project\models\BankAccount.cpp || cmake_object_order_depends_target_fsoft2025_class_1DC_team3
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20
+  INCLUDES = -external:IC:\Users\franc\vcpkg\installed\x64-windows\include -external:W0
+  OBJECT_DIR = CMakeFiles\fsoft2025_class_1DC_team3.dir
+  OBJECT_FILE_DIR = CMakeFiles\fsoft2025_class_1DC_team3.dir\Project\models
+  TARGET_COMPILE_PDB = CMakeFiles\fsoft2025_class_1DC_team3.dir\
+  TARGET_PDB = fsoft2025_class_1DC_team3.pdb
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target fsoft2025_class_1DC_team3
@@ -81,7 +153,7 @@ build CMakeFiles\fsoft2025_class_1DC_team3.dir\Project\functions.cpp.obj: CXX_CO
 #############################################
 # Link the executable fsoft2025_class_1DC_team3.exe
 
-build fsoft2025_class_1DC_team3.exe: CXX_EXECUTABLE_LINKER__fsoft2025_class_1DC_team3_Debug CMakeFiles\fsoft2025_class_1DC_team3.dir\Project\main.cpp.obj CMakeFiles\fsoft2025_class_1DC_team3.dir\Project\classes.cpp.obj CMakeFiles\fsoft2025_class_1DC_team3.dir\Project\functions.cpp.obj
+build fsoft2025_class_1DC_team3.exe: CXX_EXECUTABLE_LINKER__fsoft2025_class_1DC_team3_Debug CMakeFiles\fsoft2025_class_1DC_team3.dir\Project\classes.cpp.obj CMakeFiles\fsoft2025_class_1DC_team3.dir\Project\functions.cpp.obj CMakeFiles\fsoft2025_class_1DC_team3.dir\Project\controllers\AccountController.cpp.obj CMakeFiles\fsoft2025_class_1DC_team3.dir\Project\controllers\AdminController.cpp.obj CMakeFiles\fsoft2025_class_1DC_team3.dir\Project\data\AccountRepository.cpp.obj CMakeFiles\fsoft2025_class_1DC_team3.dir\Project\views\ConsoleView.cpp.obj CMakeFiles\fsoft2025_class_1DC_team3.dir\Project\views\ReceiptView.cpp.obj CMakeFiles\fsoft2025_class_1DC_team3.dir\Project\services\PasswordServices.cpp.obj CMakeFiles\fsoft2025_class_1DC_team3.dir\Project\main2.cpp.obj CMakeFiles\fsoft2025_class_1DC_team3.dir\Project\external_functions\functions.cpp.obj CMakeFiles\fsoft2025_class_1DC_team3.dir\Project\controllers\MainController.cpp.obj CMakeFiles\fsoft2025_class_1DC_team3.dir\Project\models\BankAccount.cpp.obj
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib

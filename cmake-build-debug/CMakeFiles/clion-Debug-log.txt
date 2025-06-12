@@ -1,4 +1,4 @@
 "C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_TOOLCHAIN_FILE=C:\Users\vasco\.vcpkg-clion\vcpkg\scripts\buildsystems\vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x64-mingw-dynamic -G "MinGW Makefiles" -S C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team3 -B C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team3\cmake-build-debug
--- Configuring done (0.9s)
--- Generating done (0.1s)
+-- Configuring done (0.8s)
+-- Generating done (0.3s)
 -- Build files have been written to: C:/Users/vasco/CLionProjects/fsoft2025_class-1DC_team3/cmake-build-debug
