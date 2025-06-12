@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 project(fsoft2025_class_1DC_team3)
-
+cmake .. -DCMAKE_TOOLCHAIN_FILE=../vcpkg/scripts/buildsystems/vcpkg.cmake
 set(CMAKE_CXX_STANDARD 20)
 
 # Define executable
