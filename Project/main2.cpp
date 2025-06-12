@@ -1,3 +1,8 @@
-//
-// Created by vasco on 05/06/2025.
-//
+// main.cpp
+#include "controllers/MainController.h"
+
+int main() {
+    MainController mainController;
+    mainController.run();
+    return 0;
+}

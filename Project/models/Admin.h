@@ -12,12 +12,10 @@ private:
 public:
     // Constructors
     Admin();
-
     Admin(const std::string &name, const std::string &password);
 
     // Getters
     std::string getName() const { return name; }
-
     std::string getPassword() const { return password; }
 
     // Admin-specific operations

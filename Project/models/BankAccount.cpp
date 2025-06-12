@@ -1,3 +1,4 @@
+// models/BankAccount.cpp
 #include "BankAccount.h"
 #include <iostream>
 #include <stdexcept>
@@ -19,9 +20,7 @@ bool BankAccount::deposit(double amount) {
         cerr << "Deposit amount must be positive" << endl;
         return false;
     }
-
     balance += amount;
-    cout << "Successfully deposited $" << amount << ". New balance: $" << balance << endl;
     return true;
 }
 
@@ -30,14 +29,11 @@ bool BankAccount::withdraw(double amount) {
         cerr << "Withdrawal amount must be positive" << endl;
         return false;
     }
-
     if (amount > balance) {
         cerr << "Insufficient funds. Current balance: $" << balance << endl;
         return false;
     }
-
     balance -= amount;
-    cout << "Successfully withdrew $" << amount << ". New balance: $" << balance << endl;
     return true;
 }
 

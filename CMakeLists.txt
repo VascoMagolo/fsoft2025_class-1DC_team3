@@ -17,6 +17,8 @@ add_executable(fsoft2025_class_1DC_team3
         Project/main2.cpp
         Project/external_functions/functions.cpp
         Project/external_functions/functions.h
+        Project/controllers/MainController.cpp
+        Project/controllers/MainController.h
 )
 
 find_package(nlohmann_json CONFIG REQUIRED)
