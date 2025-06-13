@@ -128,30 +128,6 @@ fsoft2025_class_1DC_team3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/build
 .PHONY : fsoft2025_class_1DC_team3/fast
 
-Project/classes.obj: Project/classes.cpp.obj
-.PHONY : Project/classes.obj
-
-# target to build an object file
-Project/classes.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/classes.cpp.obj
-.PHONY : Project/classes.cpp.obj
-
-Project/classes.i: Project/classes.cpp.i
-.PHONY : Project/classes.i
-
-# target to preprocess a source file
-Project/classes.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/classes.cpp.i
-.PHONY : Project/classes.cpp.i
-
-Project/classes.s: Project/classes.cpp.s
-.PHONY : Project/classes.s
-
-# target to generate assembly for a file
-Project/classes.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/classes.cpp.s
-.PHONY : Project/classes.cpp.s
-
 Project/controllers/AccountController.obj: Project/controllers/AccountController.cpp.obj
 .PHONY : Project/controllers/AccountController.obj
 
@@ -248,54 +224,6 @@ Project/data/AccountRepository.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/data/AccountRepository.cpp.s
 .PHONY : Project/data/AccountRepository.cpp.s
 
-Project/external_functions/functions.obj: Project/external_functions/functions.cpp.obj
-.PHONY : Project/external_functions/functions.obj
-
-# target to build an object file
-Project/external_functions/functions.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/external_functions/functions.cpp.obj
-.PHONY : Project/external_functions/functions.cpp.obj
-
-Project/external_functions/functions.i: Project/external_functions/functions.cpp.i
-.PHONY : Project/external_functions/functions.i
-
-# target to preprocess a source file
-Project/external_functions/functions.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/external_functions/functions.cpp.i
-.PHONY : Project/external_functions/functions.cpp.i
-
-Project/external_functions/functions.s: Project/external_functions/functions.cpp.s
-.PHONY : Project/external_functions/functions.s
-
-# target to generate assembly for a file
-Project/external_functions/functions.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/external_functions/functions.cpp.s
-.PHONY : Project/external_functions/functions.cpp.s
-
-Project/functions.obj: Project/functions.cpp.obj
-.PHONY : Project/functions.obj
-
-# target to build an object file
-Project/functions.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/functions.cpp.obj
-.PHONY : Project/functions.cpp.obj
-
-Project/functions.i: Project/functions.cpp.i
-.PHONY : Project/functions.i
-
-# target to preprocess a source file
-Project/functions.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/functions.cpp.i
-.PHONY : Project/functions.cpp.i
-
-Project/functions.s: Project/functions.cpp.s
-.PHONY : Project/functions.s
-
-# target to generate assembly for a file
-Project/functions.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/functions.cpp.s
-.PHONY : Project/functions.cpp.s
-
 Project/main.obj: Project/main.cpp.obj
 .PHONY : Project/main.obj
 
@@ -320,29 +248,29 @@ Project/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/main.cpp.s
 .PHONY : Project/main.cpp.s
 
-Project/main2.obj: Project/main2.cpp.obj
-.PHONY : Project/main2.obj
+Project/models/BankAccount.obj: Project/models/BankAccount.cpp.obj
+.PHONY : Project/models/BankAccount.obj
 
 # target to build an object file
-Project/main2.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/main2.cpp.obj
-.PHONY : Project/main2.cpp.obj
+Project/models/BankAccount.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/models/BankAccount.cpp.obj
+.PHONY : Project/models/BankAccount.cpp.obj
 
-Project/main2.i: Project/main2.cpp.i
-.PHONY : Project/main2.i
+Project/models/BankAccount.i: Project/models/BankAccount.cpp.i
+.PHONY : Project/models/BankAccount.i
 
 # target to preprocess a source file
-Project/main2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/main2.cpp.i
-.PHONY : Project/main2.cpp.i
+Project/models/BankAccount.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/models/BankAccount.cpp.i
+.PHONY : Project/models/BankAccount.cpp.i
 
-Project/main2.s: Project/main2.cpp.s
-.PHONY : Project/main2.s
+Project/models/BankAccount.s: Project/models/BankAccount.cpp.s
+.PHONY : Project/models/BankAccount.s
 
 # target to generate assembly for a file
-Project/main2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/main2.cpp.s
-.PHONY : Project/main2.cpp.s
+Project/models/BankAccount.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/models/BankAccount.cpp.s
+.PHONY : Project/models/BankAccount.cpp.s
 
 Project/services/PasswordServices.obj: Project/services/PasswordServices.cpp.obj
 .PHONY : Project/services/PasswordServices.obj
@@ -425,9 +353,6 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... fsoft2025_class_1DC_team3
-	@echo ... Project/classes.obj
-	@echo ... Project/classes.i
-	@echo ... Project/classes.s
 	@echo ... Project/controllers/AccountController.obj
 	@echo ... Project/controllers/AccountController.i
 	@echo ... Project/controllers/AccountController.s
@@ -440,18 +365,12 @@ help:
 	@echo ... Project/data/AccountRepository.obj
 	@echo ... Project/data/AccountRepository.i
 	@echo ... Project/data/AccountRepository.s
-	@echo ... Project/external_functions/functions.obj
-	@echo ... Project/external_functions/functions.i
-	@echo ... Project/external_functions/functions.s
-	@echo ... Project/functions.obj
-	@echo ... Project/functions.i
-	@echo ... Project/functions.s
 	@echo ... Project/main.obj
 	@echo ... Project/main.i
 	@echo ... Project/main.s
-	@echo ... Project/main2.obj
-	@echo ... Project/main2.i
-	@echo ... Project/main2.s
+	@echo ... Project/models/BankAccount.obj
+	@echo ... Project/models/BankAccount.i
+	@echo ... Project/models/BankAccount.s
 	@echo ... Project/services/PasswordServices.obj
 	@echo ... Project/services/PasswordServices.i
 	@echo ... Project/services/PasswordServices.s
