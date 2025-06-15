@@ -42,7 +42,7 @@
 			{
 				"command" : 2,
 				"file" : 1,
-				"line" : 21,
+				"line" : 22,
 				"parent" : 0
 			}
 		]
@@ -83,7 +83,8 @@
 				5,
 				6,
 				7,
-				9
+				9,
+				10
 			]
 		}
 	],
@@ -128,7 +129,8 @@
 				5,
 				6,
 				7,
-				9
+				9,
+				10
 			]
 		},
 		{
@@ -198,6 +200,12 @@
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
 			"path" : "Project/models/BankAccount.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ProjectTest/main.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

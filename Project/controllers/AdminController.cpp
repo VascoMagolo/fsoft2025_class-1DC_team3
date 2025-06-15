@@ -1,10 +1,12 @@
 #include "AdminController.h"
-#include "AccountController.h"
+
 #include <fstream>
 #include <iostream>
 #include <limits>
 #include <nlohmann/json.hpp>
 #include <string>
+
+#include "AccountController.h"
 
 using namespace std;
 using json = nlohmann::json;
@@ -46,7 +48,7 @@ void AdminController::updateUserAccount() {
     accountController.updateAccountInfo(account);
     repository.saveAccount(account);
     cout << "Account information updated successfully.\n";
-  } catch (const std::exception& e) {
+  } catch (const std::exception &e) {
     cout << "Account not found or error updating: " << e.what() << endl;
   }
 }

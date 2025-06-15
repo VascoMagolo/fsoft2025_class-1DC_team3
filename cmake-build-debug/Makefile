@@ -344,6 +344,30 @@ Project/views/ReceiptView.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/views/ReceiptView.cpp.s
 .PHONY : Project/views/ReceiptView.cpp.s
 
+ProjectTest/main.obj: ProjectTest/main.cpp.obj
+.PHONY : ProjectTest/main.obj
+
+# target to build an object file
+ProjectTest/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/ProjectTest/main.cpp.obj
+.PHONY : ProjectTest/main.cpp.obj
+
+ProjectTest/main.i: ProjectTest/main.cpp.i
+.PHONY : ProjectTest/main.i
+
+# target to preprocess a source file
+ProjectTest/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/ProjectTest/main.cpp.i
+.PHONY : ProjectTest/main.cpp.i
+
+ProjectTest/main.s: ProjectTest/main.cpp.s
+.PHONY : ProjectTest/main.s
+
+# target to generate assembly for a file
+ProjectTest/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/ProjectTest/main.cpp.s
+.PHONY : ProjectTest/main.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -380,6 +404,9 @@ help:
 	@echo ... Project/views/ReceiptView.obj
 	@echo ... Project/views/ReceiptView.i
 	@echo ... Project/views/ReceiptView.s
+	@echo ... ProjectTest/main.obj
+	@echo ... ProjectTest/main.i
+	@echo ... ProjectTest/main.s
 .PHONY : help
 
 
