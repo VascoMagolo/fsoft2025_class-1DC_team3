@@ -1,4 +1,5 @@
 #include "AdminController.h"
+#include "AccountController.h"
 #include <iostream>
 #include <string>
 #include <fstream>
@@ -32,7 +33,6 @@ bool AdminController::authenticateAdmin() {
 
 void AdminController::updateUserAccount() {
     int account_number;
-    string new_name;
     cout << "Enter the account number to update:\n";
     while (!(cin >> account_number)) {
         cout << "Invalid input. Please enter a valid account number:\n";
@@ -41,43 +41,14 @@ void AdminController::updateUserAccount() {
     }
     cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
-    ifstream file_in("accounts.json");
-    if (!file_in.is_open()) {
-        cout << "Failed to open accounts.json!\n";
-        return;
-    }
-    json accounts;
     try {
-        file_in >> accounts;
-    } catch (const json::parse_error &e) {
-        cout << "JSON parse error: " << e.what() << endl;
-        file_in.close();
-        return;
-    }
-    file_in.close();
-
-    bool found = false;
-    for (auto& account : accounts) {
-        if (account["account_number"] == account_number) {
-            cout << "Enter new name:\n";
-            getline(cin, new_name);
-            account["name"] = new_name;
-            found = true;
-            break;
-        }
-    }
-
-    if (found) {
-        ofstream file_out("accounts.json");
-        if (!file_out.is_open()) {
-            cout << "Failed to write to accounts.json!\n";
-            return;
-        }
-        file_out << accounts.dump(4);
-        file_out.close();
-        cout << "Account name updated successfully.\n";
-    } else {
-        cout << "Account not found.\n";
+        BankAccount account = repository.loadAccount(account_number);
+        AccountController accountController;
+        accountController.updateAccountInfo(account);
+        repository.saveAccount(account);
+        cout << "Account information updated successfully.\n";
+    } catch (const std::exception& e) {
+        cout << "Account not found or error updating: " << e.what() << endl;
     }
 }
 
