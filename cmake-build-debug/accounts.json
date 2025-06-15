@@ -4,7 +4,7 @@
         "address": "123 Main St",
         "age": 25,
         "balance": 1000.0,
-        "name": "John Doe",
+        "name": "John doea",
         "password": "password123"
     },
     {
@@ -24,11 +24,11 @@
         "password": "123456"
     },
     {
-        "account_number": 51740,
-        "address": "porot",
-        "age": 18,
-        "balance": 10.0,
-        "name": "joao",
-        "password": "1231"
+        "account_number": 29987,
+        "address": "ad13ad",
+        "age": 19,
+        "balance": 10000.0,
+        "name": "vasco",
+        "password": "123"
     }
 ]

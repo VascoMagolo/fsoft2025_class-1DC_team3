@@ -4,13 +4,12 @@
 #include <string>
 #include <fstream>
 #include <limits>
-#include "../models/BankAccount.h"
 #include <nlohmann/json.hpp>
 
 using namespace std;
 using json = nlohmann::json;
 
-AdminController::AdminController() {}
+AdminController::AdminController() : repository("accounts.json") {}
 
 bool AdminController::authenticateAdmin(const std::string &password) {
     // Simple authentication: checks if the password matches a hardcoded value
@@ -124,29 +123,32 @@ void AdminController::deleteUserAccount() {
 }
 
 void AdminController::runAdminMenu() {
-    cout << "Admin Area\n";
-    cout << "1 - View All Accounts\n";
-    cout << "2 - Delete Account\n";
-    cout << "3 - Update Accounts\n";
-    cout << "0 - Exit\n";
+    bool running = true;
+    while (running) {
+        cout << "Admin Area\n";
+        cout << "1 - View All Accounts\n";
+        cout << "2 - Delete Account\n";
+        cout << "3 - Update Accounts\n";
+        cout << "0 - Exit\n";
 
-    int option;
-    cin >> option;
-
-    switch (option) {
-        case 1:
-            viewAllAccounts();
-            break;
-        case 2:
-            deleteUserAccount();
-            break;
-        case 3:
-            updateUserAccount();
-            break;
-        case 0:
-            return;
-        default:
-            cout << "Invalid Option.\n";
-            break;
+        int option;
+        cin >> option;
+        switch (option) {
+            case 1:
+                viewAllAccounts();
+                break;
+            case 2:
+                deleteUserAccount();
+                break;
+            case 3:
+                updateUserAccount();
+                break;
+            case 0:
+                running = false;
+                return;
+            default:
+                cout << "Invalid Option.\n";
+                break;
+        }
     }
 }
