@@ -84,38 +84,7 @@ void AdminController::deleteUserAccount() {
   }
   cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
-  ifstream file_in("accounts.json");
-  if (!file_in.is_open()) {
-    cout << "Failed to open accounts.json!\n";
-    return;
-  }
-  json accounts;
-  try {
-    file_in >> accounts;
-  } catch (const json::parse_error &e) {
-    cout << "JSON parse error: " << e.what() << endl;
-    file_in.close();
-    return;
-  }
-  file_in.close();
-
-  bool found = false;
-  for (auto it = accounts.begin(); it != accounts.end(); ++it) {
-    if ((*it)["account_number"] == account_number) {
-      accounts.erase(it);
-      found = true;
-      break;
-    }
-  }
-
-  if (found) {
-    ofstream file_out("accounts.json");
-    if (!file_out.is_open()) {
-      cout << "Failed to write to accounts.json!\n";
-      return;
-    }
-    file_out << accounts.dump(4);
-    file_out.close();
+  if (repository.deleteAccount(account_number)) {
     cout << "Account deleted successfully.\n";
   } else {
     cout << "Account not found.\n";
