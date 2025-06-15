@@ -15,6 +15,7 @@ add_executable(fsoft2025_class_1DC_team3
         Project/controllers/MainController.cpp
         Project/controllers/MainController.h
         Project/models/BankAccount.cpp
+        ProjectTest/main.cpp
 )
 
 find_package(nlohmann_json CONFIG REQUIRED)
