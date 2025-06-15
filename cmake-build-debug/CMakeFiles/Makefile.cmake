@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_GENERATOR "MinGW Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
+  "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
   "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake"
   "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake"
   "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake"
@@ -14,6 +15,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake"
   "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake"
   "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake"
+  "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakePackageConfigHelpers.cmake"
   "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake"
   "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake"
   "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake"
@@ -23,6 +25,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake"
   "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake"
   "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageMessage.cmake"
+  "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/GNUInstallDirs.cmake"
   "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake"
   "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake"
   "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake"
@@ -32,11 +35,22 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake"
   "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake"
   "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake"
+  "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/WriteBasicConfigVersionFile.cmake"
   "C:/Users/vasco/.vcpkg-clion/vcpkg/installed/x64-mingw-dynamic/share/nlohmann_json/nlohmann_jsonConfig.cmake"
   "C:/Users/vasco/.vcpkg-clion/vcpkg/installed/x64-mingw-dynamic/share/nlohmann_json/nlohmann_jsonConfigVersion.cmake"
   "C:/Users/vasco/.vcpkg-clion/vcpkg/installed/x64-mingw-dynamic/share/nlohmann_json/nlohmann_jsonTargets.cmake"
   "C:/Users/vasco/.vcpkg-clion/vcpkg/scripts/buildsystems/vcpkg.cmake"
   "C:/Users/vasco/CLionProjects/fsoft2025_class-1DC_team3/CMakeLists.txt"
+  "C:/Users/vasco/CLionProjects/fsoft2025_class-1DC_team3/ProjectTest/CMakeLists.txt"
+  "C:/Users/vasco/CLionProjects/fsoft2025_class-1DC_team3/ProjectTest/lib/CMakeLists.txt"
+  "C:/Users/vasco/CLionProjects/fsoft2025_class-1DC_team3/ProjectTest/lib/googlemock/CMakeLists.txt"
+  "C:/Users/vasco/CLionProjects/fsoft2025_class-1DC_team3/ProjectTest/lib/googlemock/cmake/gmock.pc.in"
+  "C:/Users/vasco/CLionProjects/fsoft2025_class-1DC_team3/ProjectTest/lib/googlemock/cmake/gmock_main.pc.in"
+  "C:/Users/vasco/CLionProjects/fsoft2025_class-1DC_team3/ProjectTest/lib/googletest/CMakeLists.txt"
+  "C:/Users/vasco/CLionProjects/fsoft2025_class-1DC_team3/ProjectTest/lib/googletest/cmake/Config.cmake.in"
+  "C:/Users/vasco/CLionProjects/fsoft2025_class-1DC_team3/ProjectTest/lib/googletest/cmake/gtest.pc.in"
+  "C:/Users/vasco/CLionProjects/fsoft2025_class-1DC_team3/ProjectTest/lib/googletest/cmake/gtest_main.pc.in"
+  "C:/Users/vasco/CLionProjects/fsoft2025_class-1DC_team3/ProjectTest/lib/googletest/cmake/internal_utils.cmake"
   "CMakeFiles/3.30.5/CMakeCCompiler.cmake"
   "CMakeFiles/3.30.5/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.30.5/CMakeRCCompiler.cmake"
@@ -52,9 +66,24 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "ProjectTest/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "ProjectTest/Lib/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "ProjectTest/Lib/googletest/generated/gmock.pc"
+  "ProjectTest/Lib/googletest/generated/gmock_main.pc"
+  "ProjectTest/Lib/googlemock/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "ProjectTest/Lib/googletest/generated/GTestConfigVersion.cmake"
+  "ProjectTest/Lib/googletest/generated/GTestConfig.cmake"
+  "ProjectTest/Lib/googletest/generated/gtest.pc"
+  "ProjectTest/Lib/googletest/generated/gtest_main.pc"
+  "ProjectTest/Lib/googletest/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/fsoft2025_class_1DC_team3.dir/DependInfo.cmake"
+  "ProjectTest/CMakeFiles/ProjectTest_run.dir/DependInfo.cmake"
+  "ProjectTest/Lib/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
+  "ProjectTest/Lib/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake"
+  "ProjectTest/Lib/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "ProjectTest/Lib/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
   )

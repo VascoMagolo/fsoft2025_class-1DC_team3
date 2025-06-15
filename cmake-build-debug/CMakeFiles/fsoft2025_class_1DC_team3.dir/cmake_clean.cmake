@@ -17,8 +17,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/views/ConsoleView.cpp.obj.d"
   "CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/views/ReceiptView.cpp.obj"
   "CMakeFiles/fsoft2025_class_1DC_team3.dir/Project/views/ReceiptView.cpp.obj.d"
-  "CMakeFiles/fsoft2025_class_1DC_team3.dir/ProjectTest/main.cpp.obj"
-  "CMakeFiles/fsoft2025_class_1DC_team3.dir/ProjectTest/main.cpp.obj.d"
   "fsoft2025_class_1DC_team3.exe"
   "fsoft2025_class_1DC_team3.exe.manifest"
   "fsoft2025_class_1DC_team3.pdb"

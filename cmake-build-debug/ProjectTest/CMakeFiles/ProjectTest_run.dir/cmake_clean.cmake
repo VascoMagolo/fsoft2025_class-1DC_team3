@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/ProjectTest_run.dir/__/Project/controllers/AccountController.cpp.obj"
+  "CMakeFiles/ProjectTest_run.dir/__/Project/controllers/AccountController.cpp.obj.d"
+  "CMakeFiles/ProjectTest_run.dir/__/Project/controllers/AdminController.cpp.obj"
+  "CMakeFiles/ProjectTest_run.dir/__/Project/controllers/AdminController.cpp.obj.d"
+  "CMakeFiles/ProjectTest_run.dir/__/Project/controllers/MainController.cpp.obj"
+  "CMakeFiles/ProjectTest_run.dir/__/Project/controllers/MainController.cpp.obj.d"
+  "CMakeFiles/ProjectTest_run.dir/__/Project/data/AccountRepository.cpp.obj"
+  "CMakeFiles/ProjectTest_run.dir/__/Project/data/AccountRepository.cpp.obj.d"
+  "CMakeFiles/ProjectTest_run.dir/__/Project/models/Admin.cpp.obj"
+  "CMakeFiles/ProjectTest_run.dir/__/Project/models/Admin.cpp.obj.d"
+  "CMakeFiles/ProjectTest_run.dir/__/Project/models/BankAccount.cpp.obj"
+  "CMakeFiles/ProjectTest_run.dir/__/Project/models/BankAccount.cpp.obj.d"
+  "CMakeFiles/ProjectTest_run.dir/__/Project/services/PasswordServices.cpp.obj"
+  "CMakeFiles/ProjectTest_run.dir/__/Project/services/PasswordServices.cpp.obj.d"
+  "CMakeFiles/ProjectTest_run.dir/__/Project/views/ConsoleView.cpp.obj"
+  "CMakeFiles/ProjectTest_run.dir/__/Project/views/ConsoleView.cpp.obj.d"
+  "CMakeFiles/ProjectTest_run.dir/__/Project/views/ReceiptView.cpp.obj"
+  "CMakeFiles/ProjectTest_run.dir/__/Project/views/ReceiptView.cpp.obj.d"
+  "CMakeFiles/ProjectTest_run.dir/main.cpp.obj"
+  "CMakeFiles/ProjectTest_run.dir/main.cpp.obj.d"
+  "CMakeFiles/ProjectTest_run.dir/test_AccountController.cpp.obj"
+  "CMakeFiles/ProjectTest_run.dir/test_AccountController.cpp.obj.d"
+  "CMakeFiles/ProjectTest_run.dir/test_AccountRepository.cpp.obj"
+  "CMakeFiles/ProjectTest_run.dir/test_AccountRepository.cpp.obj.d"
+  "CMakeFiles/ProjectTest_run.dir/test_Admin.cpp.obj"
+  "CMakeFiles/ProjectTest_run.dir/test_Admin.cpp.obj.d"
+  "CMakeFiles/ProjectTest_run.dir/test_AdminController.cpp.obj"
+  "CMakeFiles/ProjectTest_run.dir/test_AdminController.cpp.obj.d"
+  "CMakeFiles/ProjectTest_run.dir/test_BankAccount.cpp.obj"
+  "CMakeFiles/ProjectTest_run.dir/test_BankAccount.cpp.obj.d"
+  "CMakeFiles/ProjectTest_run.dir/test_PasswordService.cpp.obj"
+  "CMakeFiles/ProjectTest_run.dir/test_PasswordService.cpp.obj.d"
+  "ProjectTest_run.exe"
+  "ProjectTest_run.exe.manifest"
+  "ProjectTest_run.pdb"
+  "libProjectTest_run.dll.a"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/ProjectTest_run.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
