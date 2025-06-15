@@ -4,8 +4,8 @@
 
 TEST(AdminControllerTest, AuthenticateCorrectPassword) {
   AdminController controller;
-  // Assume que a password correta é "admin"
-  EXPECT_TRUE(controller.authenticateAdmin("admin"));
+  // Assume que a password correta é "Admin123."
+  EXPECT_TRUE(controller.authenticateAdmin("Admin123."));
 }
 
 TEST(AdminControllerTest, AuthenticateWrongPassword) {

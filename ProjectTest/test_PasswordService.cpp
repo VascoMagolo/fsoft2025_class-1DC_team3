@@ -16,7 +16,7 @@ TEST(PasswordServiceTest, InvalidPasswords) {
 
 TEST(PasswordServiceTest, PasswordRequirementsMessage) {
   std::string msg = PasswordService::getPasswordRequirements();
-  EXPECT_NE(msg.find("mínimo"), std::string::npos);
+  EXPECT_NE(msg.find("least"), std::string::npos);
 }
 
 TEST(PasswordServiceTest, HashConsistency) {

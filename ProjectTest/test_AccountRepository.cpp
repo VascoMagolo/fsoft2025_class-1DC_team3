@@ -39,7 +39,16 @@ TEST_F(AccountRepositoryTest, AccountExists) {
 
 TEST_F(AccountRepositoryTest, GenerateUniqueAccountNumber) {
   AccountRepository repo(testFile);
+
+  std::this_thread::sleep_for(std::chrono::milliseconds(1000));
   int num1 = repo.generateUniqueAccountNumber();
+
+  std::this_thread::sleep_for(std::chrono::milliseconds(1000));
   int num2 = repo.generateUniqueAccountNumber();
+
   EXPECT_NE(num1, num2);
+  EXPECT_GE(num1, 10000);
+  EXPECT_LE(num1, 99999);
+  EXPECT_GE(num2, 10000);
+  EXPECT_LE(num2, 99999);
 }

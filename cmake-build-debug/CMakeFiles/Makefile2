@@ -173,8 +173,8 @@ CMakeFiles/fsoft2025_class_1DC_team3.dir/clean:
 # Target rules for target ProjectTest/CMakeFiles/ProjectTest_run.dir
 
 # All Build rule for target.
-ProjectTest/CMakeFiles/ProjectTest_run.dir/all: ProjectTest/Lib/googletest/CMakeFiles/gtest_main.dir/all
 ProjectTest/CMakeFiles/ProjectTest_run.dir/all: ProjectTest/Lib/googletest/CMakeFiles/gtest.dir/all
+ProjectTest/CMakeFiles/ProjectTest_run.dir/all: ProjectTest/Lib/googletest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f ProjectTest\CMakeFiles\ProjectTest_run.dir\build.make ProjectTest/CMakeFiles/ProjectTest_run.dir/depend
 	$(MAKE) $(MAKESILENT) -f ProjectTest\CMakeFiles\ProjectTest_run.dir\build.make ProjectTest/CMakeFiles/ProjectTest_run.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team3\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 "Built target ProjectTest_run"
@@ -226,8 +226,8 @@ ProjectTest/Lib/googlemock/CMakeFiles/gmock.dir/clean:
 # Target rules for target ProjectTest/Lib/googlemock/CMakeFiles/gmock_main.dir
 
 # All Build rule for target.
-ProjectTest/Lib/googlemock/CMakeFiles/gmock_main.dir/all: ProjectTest/Lib/googlemock/CMakeFiles/gmock.dir/all
 ProjectTest/Lib/googlemock/CMakeFiles/gmock_main.dir/all: ProjectTest/Lib/googletest/CMakeFiles/gtest.dir/all
+ProjectTest/Lib/googlemock/CMakeFiles/gmock_main.dir/all: ProjectTest/Lib/googlemock/CMakeFiles/gmock.dir/all
 	$(MAKE) $(MAKESILENT) -f ProjectTest\Lib\googlemock\CMakeFiles\gmock_main.dir\build.make ProjectTest/Lib/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f ProjectTest\Lib\googlemock\CMakeFiles\gmock_main.dir\build.make ProjectTest/Lib/googlemock/CMakeFiles/gmock_main.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team3\cmake-build-debug\CMakeFiles --progress-num=30,31 "Built target gmock_main"
