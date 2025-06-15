@@ -63,15 +63,85 @@ CMAKE_BINARY_DIR = C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team3\cmake-
 
 # The main recursive "all" target.
 all: CMakeFiles/fsoft2025_class_1DC_team3.dir/all
+all: ProjectTest/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: ProjectTest/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/fsoft2025_class_1DC_team3.dir/clean
+clean: ProjectTest/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory ProjectTest
+
+# Recursive "all" directory target.
+ProjectTest/all: ProjectTest/CMakeFiles/ProjectTest_run.dir/all
+ProjectTest/all: ProjectTest/Lib/all
+.PHONY : ProjectTest/all
+
+# Recursive "preinstall" directory target.
+ProjectTest/preinstall: ProjectTest/Lib/preinstall
+.PHONY : ProjectTest/preinstall
+
+# Recursive "clean" directory target.
+ProjectTest/clean: ProjectTest/CMakeFiles/ProjectTest_run.dir/clean
+ProjectTest/clean: ProjectTest/Lib/clean
+.PHONY : ProjectTest/clean
+
+#=============================================================================
+# Directory level rules for directory ProjectTest/Lib
+
+# Recursive "all" directory target.
+ProjectTest/Lib/all: ProjectTest/Lib/googlemock/all
+.PHONY : ProjectTest/Lib/all
+
+# Recursive "preinstall" directory target.
+ProjectTest/Lib/preinstall: ProjectTest/Lib/googlemock/preinstall
+.PHONY : ProjectTest/Lib/preinstall
+
+# Recursive "clean" directory target.
+ProjectTest/Lib/clean: ProjectTest/Lib/googlemock/clean
+.PHONY : ProjectTest/Lib/clean
+
+#=============================================================================
+# Directory level rules for directory ProjectTest/Lib/googlemock
+
+# Recursive "all" directory target.
+ProjectTest/Lib/googlemock/all: ProjectTest/Lib/googlemock/CMakeFiles/gmock.dir/all
+ProjectTest/Lib/googlemock/all: ProjectTest/Lib/googlemock/CMakeFiles/gmock_main.dir/all
+ProjectTest/Lib/googlemock/all: ProjectTest/Lib/googletest/all
+.PHONY : ProjectTest/Lib/googlemock/all
+
+# Recursive "preinstall" directory target.
+ProjectTest/Lib/googlemock/preinstall: ProjectTest/Lib/googletest/preinstall
+.PHONY : ProjectTest/Lib/googlemock/preinstall
+
+# Recursive "clean" directory target.
+ProjectTest/Lib/googlemock/clean: ProjectTest/Lib/googlemock/CMakeFiles/gmock.dir/clean
+ProjectTest/Lib/googlemock/clean: ProjectTest/Lib/googlemock/CMakeFiles/gmock_main.dir/clean
+ProjectTest/Lib/googlemock/clean: ProjectTest/Lib/googletest/clean
+.PHONY : ProjectTest/Lib/googlemock/clean
+
+#=============================================================================
+# Directory level rules for directory ProjectTest/Lib/googletest
+
+# Recursive "all" directory target.
+ProjectTest/Lib/googletest/all: ProjectTest/Lib/googletest/CMakeFiles/gtest.dir/all
+ProjectTest/Lib/googletest/all: ProjectTest/Lib/googletest/CMakeFiles/gtest_main.dir/all
+.PHONY : ProjectTest/Lib/googletest/all
+
+# Recursive "preinstall" directory target.
+ProjectTest/Lib/googletest/preinstall:
+.PHONY : ProjectTest/Lib/googletest/preinstall
+
+# Recursive "clean" directory target.
+ProjectTest/Lib/googletest/clean: ProjectTest/Lib/googletest/CMakeFiles/gtest.dir/clean
+ProjectTest/Lib/googletest/clean: ProjectTest/Lib/googletest/CMakeFiles/gtest_main.dir/clean
+.PHONY : ProjectTest/Lib/googletest/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/fsoft2025_class_1DC_team3.dir
@@ -80,12 +150,12 @@ clean: CMakeFiles/fsoft2025_class_1DC_team3.dir/clean
 CMakeFiles/fsoft2025_class_1DC_team3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team3\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target fsoft2025_class_1DC_team3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team3\cmake-build-debug\CMakeFiles --progress-num=18,19,20,21,22,23,24,25,26,27 "Built target fsoft2025_class_1DC_team3"
 .PHONY : CMakeFiles/fsoft2025_class_1DC_team3.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/fsoft2025_class_1DC_team3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team3\cmake-build-debug\CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team3\cmake-build-debug\CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/fsoft2025_class_1DC_team3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team3\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/fsoft2025_class_1DC_team3.dir/rule
@@ -98,6 +168,138 @@ fsoft2025_class_1DC_team3: CMakeFiles/fsoft2025_class_1DC_team3.dir/rule
 CMakeFiles/fsoft2025_class_1DC_team3.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2025_class_1DC_team3.dir\build.make CMakeFiles/fsoft2025_class_1DC_team3.dir/clean
 .PHONY : CMakeFiles/fsoft2025_class_1DC_team3.dir/clean
+
+#=============================================================================
+# Target rules for target ProjectTest/CMakeFiles/ProjectTest_run.dir
+
+# All Build rule for target.
+ProjectTest/CMakeFiles/ProjectTest_run.dir/all: ProjectTest/Lib/googletest/CMakeFiles/gtest.dir/all
+ProjectTest/CMakeFiles/ProjectTest_run.dir/all: ProjectTest/Lib/googletest/CMakeFiles/gtest_main.dir/all
+	$(MAKE) $(MAKESILENT) -f ProjectTest\CMakeFiles\ProjectTest_run.dir\build.make ProjectTest/CMakeFiles/ProjectTest_run.dir/depend
+	$(MAKE) $(MAKESILENT) -f ProjectTest\CMakeFiles\ProjectTest_run.dir\build.make ProjectTest/CMakeFiles/ProjectTest_run.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team3\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 "Built target ProjectTest_run"
+.PHONY : ProjectTest/CMakeFiles/ProjectTest_run.dir/all
+
+# Build rule for subdir invocation for target.
+ProjectTest/CMakeFiles/ProjectTest_run.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team3\cmake-build-debug\CMakeFiles 21
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ProjectTest/CMakeFiles/ProjectTest_run.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team3\cmake-build-debug\CMakeFiles 0
+.PHONY : ProjectTest/CMakeFiles/ProjectTest_run.dir/rule
+
+# Convenience name for target.
+ProjectTest_run: ProjectTest/CMakeFiles/ProjectTest_run.dir/rule
+.PHONY : ProjectTest_run
+
+# clean rule for target.
+ProjectTest/CMakeFiles/ProjectTest_run.dir/clean:
+	$(MAKE) $(MAKESILENT) -f ProjectTest\CMakeFiles\ProjectTest_run.dir\build.make ProjectTest/CMakeFiles/ProjectTest_run.dir/clean
+.PHONY : ProjectTest/CMakeFiles/ProjectTest_run.dir/clean
+
+#=============================================================================
+# Target rules for target ProjectTest/Lib/googlemock/CMakeFiles/gmock.dir
+
+# All Build rule for target.
+ProjectTest/Lib/googlemock/CMakeFiles/gmock.dir/all: ProjectTest/Lib/googletest/CMakeFiles/gtest.dir/all
+	$(MAKE) $(MAKESILENT) -f ProjectTest\Lib\googlemock\CMakeFiles\gmock.dir\build.make ProjectTest/Lib/googlemock/CMakeFiles/gmock.dir/depend
+	$(MAKE) $(MAKESILENT) -f ProjectTest\Lib\googlemock\CMakeFiles\gmock.dir\build.make ProjectTest/Lib/googlemock/CMakeFiles/gmock.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team3\cmake-build-debug\CMakeFiles --progress-num=28,29 "Built target gmock"
+.PHONY : ProjectTest/Lib/googlemock/CMakeFiles/gmock.dir/all
+
+# Build rule for subdir invocation for target.
+ProjectTest/Lib/googlemock/CMakeFiles/gmock.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team3\cmake-build-debug\CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ProjectTest/Lib/googlemock/CMakeFiles/gmock.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team3\cmake-build-debug\CMakeFiles 0
+.PHONY : ProjectTest/Lib/googlemock/CMakeFiles/gmock.dir/rule
+
+# Convenience name for target.
+gmock: ProjectTest/Lib/googlemock/CMakeFiles/gmock.dir/rule
+.PHONY : gmock
+
+# clean rule for target.
+ProjectTest/Lib/googlemock/CMakeFiles/gmock.dir/clean:
+	$(MAKE) $(MAKESILENT) -f ProjectTest\Lib\googlemock\CMakeFiles\gmock.dir\build.make ProjectTest/Lib/googlemock/CMakeFiles/gmock.dir/clean
+.PHONY : ProjectTest/Lib/googlemock/CMakeFiles/gmock.dir/clean
+
+#=============================================================================
+# Target rules for target ProjectTest/Lib/googlemock/CMakeFiles/gmock_main.dir
+
+# All Build rule for target.
+ProjectTest/Lib/googlemock/CMakeFiles/gmock_main.dir/all: ProjectTest/Lib/googletest/CMakeFiles/gtest.dir/all
+ProjectTest/Lib/googlemock/CMakeFiles/gmock_main.dir/all: ProjectTest/Lib/googlemock/CMakeFiles/gmock.dir/all
+	$(MAKE) $(MAKESILENT) -f ProjectTest\Lib\googlemock\CMakeFiles\gmock_main.dir\build.make ProjectTest/Lib/googlemock/CMakeFiles/gmock_main.dir/depend
+	$(MAKE) $(MAKESILENT) -f ProjectTest\Lib\googlemock\CMakeFiles\gmock_main.dir\build.make ProjectTest/Lib/googlemock/CMakeFiles/gmock_main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team3\cmake-build-debug\CMakeFiles --progress-num=30,31 "Built target gmock_main"
+.PHONY : ProjectTest/Lib/googlemock/CMakeFiles/gmock_main.dir/all
+
+# Build rule for subdir invocation for target.
+ProjectTest/Lib/googlemock/CMakeFiles/gmock_main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team3\cmake-build-debug\CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ProjectTest/Lib/googlemock/CMakeFiles/gmock_main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team3\cmake-build-debug\CMakeFiles 0
+.PHONY : ProjectTest/Lib/googlemock/CMakeFiles/gmock_main.dir/rule
+
+# Convenience name for target.
+gmock_main: ProjectTest/Lib/googlemock/CMakeFiles/gmock_main.dir/rule
+.PHONY : gmock_main
+
+# clean rule for target.
+ProjectTest/Lib/googlemock/CMakeFiles/gmock_main.dir/clean:
+	$(MAKE) $(MAKESILENT) -f ProjectTest\Lib\googlemock\CMakeFiles\gmock_main.dir\build.make ProjectTest/Lib/googlemock/CMakeFiles/gmock_main.dir/clean
+.PHONY : ProjectTest/Lib/googlemock/CMakeFiles/gmock_main.dir/clean
+
+#=============================================================================
+# Target rules for target ProjectTest/Lib/googletest/CMakeFiles/gtest.dir
+
+# All Build rule for target.
+ProjectTest/Lib/googletest/CMakeFiles/gtest.dir/all:
+	$(MAKE) $(MAKESILENT) -f ProjectTest\Lib\googletest\CMakeFiles\gtest.dir\build.make ProjectTest/Lib/googletest/CMakeFiles/gtest.dir/depend
+	$(MAKE) $(MAKESILENT) -f ProjectTest\Lib\googletest\CMakeFiles\gtest.dir\build.make ProjectTest/Lib/googletest/CMakeFiles/gtest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team3\cmake-build-debug\CMakeFiles --progress-num=32,33 "Built target gtest"
+.PHONY : ProjectTest/Lib/googletest/CMakeFiles/gtest.dir/all
+
+# Build rule for subdir invocation for target.
+ProjectTest/Lib/googletest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team3\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ProjectTest/Lib/googletest/CMakeFiles/gtest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team3\cmake-build-debug\CMakeFiles 0
+.PHONY : ProjectTest/Lib/googletest/CMakeFiles/gtest.dir/rule
+
+# Convenience name for target.
+gtest: ProjectTest/Lib/googletest/CMakeFiles/gtest.dir/rule
+.PHONY : gtest
+
+# clean rule for target.
+ProjectTest/Lib/googletest/CMakeFiles/gtest.dir/clean:
+	$(MAKE) $(MAKESILENT) -f ProjectTest\Lib\googletest\CMakeFiles\gtest.dir\build.make ProjectTest/Lib/googletest/CMakeFiles/gtest.dir/clean
+.PHONY : ProjectTest/Lib/googletest/CMakeFiles/gtest.dir/clean
+
+#=============================================================================
+# Target rules for target ProjectTest/Lib/googletest/CMakeFiles/gtest_main.dir
+
+# All Build rule for target.
+ProjectTest/Lib/googletest/CMakeFiles/gtest_main.dir/all: ProjectTest/Lib/googletest/CMakeFiles/gtest.dir/all
+	$(MAKE) $(MAKESILENT) -f ProjectTest\Lib\googletest\CMakeFiles\gtest_main.dir\build.make ProjectTest/Lib/googletest/CMakeFiles/gtest_main.dir/depend
+	$(MAKE) $(MAKESILENT) -f ProjectTest\Lib\googletest\CMakeFiles\gtest_main.dir\build.make ProjectTest/Lib/googletest/CMakeFiles/gtest_main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team3\cmake-build-debug\CMakeFiles --progress-num=34,35 "Built target gtest_main"
+.PHONY : ProjectTest/Lib/googletest/CMakeFiles/gtest_main.dir/all
+
+# Build rule for subdir invocation for target.
+ProjectTest/Lib/googletest/CMakeFiles/gtest_main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team3\cmake-build-debug\CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ProjectTest/Lib/googletest/CMakeFiles/gtest_main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team3\cmake-build-debug\CMakeFiles 0
+.PHONY : ProjectTest/Lib/googletest/CMakeFiles/gtest_main.dir/rule
+
+# Convenience name for target.
+gtest_main: ProjectTest/Lib/googletest/CMakeFiles/gtest_main.dir/rule
+.PHONY : gtest_main
+
+# clean rule for target.
+ProjectTest/Lib/googletest/CMakeFiles/gtest_main.dir/clean:
+	$(MAKE) $(MAKESILENT) -f ProjectTest\Lib\googletest\CMakeFiles\gtest_main.dir\build.make ProjectTest/Lib/googletest/CMakeFiles/gtest_main.dir/clean
+.PHONY : ProjectTest/Lib/googletest/CMakeFiles/gtest_main.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
