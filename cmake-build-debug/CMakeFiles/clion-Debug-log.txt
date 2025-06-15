@@ -1,4 +1,15 @@
-"C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_TOOLCHAIN_FILE=C:\Users\vasco\.vcpkg-clion\vcpkg\scripts\buildsystems\vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x64-mingw-dynamic -G "MinGW Makefiles" -S C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team3 -B C:\Users\vasco\CLionProjects\fsoft2025_class-1DC_team3\cmake-build-debug
--- Configuring done (0.3s)
--- Generating done (0.1s)
--- Build files have been written to: C:/Users/vasco/CLionProjects/fsoft2025_class-1DC_team3/cmake-build-debug
+"C:\Program Files\JetBrains\CLion 2025.1.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2025.1.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S "D:\LETI Programacao\fsoft2025_class-1DC_team3" -B "D:\LETI Programacao\fsoft2025_class-1DC_team3\cmake-build-debug"
+CMake Error at CMakeLists.txt:21 (find_package):
+  Could not find a package configuration file provided by "nlohmann_json"
+  with any of the following names:
+
+    nlohmann_jsonConfig.cmake
+    nlohmann_json-config.cmake
+
+  Add the installation prefix of "nlohmann_json" to CMAKE_PREFIX_PATH or set
+  "nlohmann_json_DIR" to a directory containing one of the above files.  If
+  "nlohmann_json" provides a separate development package or SDK, be sure it
+  has been installed.
+
+
+-- Configuring incomplete, errors occurred!
