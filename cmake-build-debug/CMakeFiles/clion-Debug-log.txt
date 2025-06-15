@@ -11,7 +11,6 @@
 -- Check for working CXX compiler: C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/g++.exe - skipped
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
--- Found nlohmann_json: C:/Users/vasco/.vcpkg-clion/vcpkg/installed/x64-mingw-dynamic/share/nlohmann_json/nlohmann_jsonConfig.cmake (found version "3.11.3")
--- Configuring done (32.2s)
--- Generating done (0.3s)
+-- Configuring done (10.0s)
+-- Generating done (0.2s)
 -- Build files have been written to: C:/Users/vasco/CLionProjects/fsoft2025_class-1DC_team3/cmake-build-debug
