@@ -30,5 +30,37 @@
         "balance": 10000.0,
         "name": "vasco",
         "password": "123"
+    },
+    {
+        "account_number": 37893,
+        "address": "Feira",
+        "age": 123,
+        "balance": 123.0,
+        "name": "Vasco Magolo",
+        "password": "123"
+    },
+    {
+        "account_number": 81822,
+        "address": "feira",
+        "age": 18,
+        "balance": 100.0,
+        "name": "vasco",
+        "password": "Joao123."
+    },
+    {
+        "account_number": 62797,
+        "address": "porto",
+        "age": 18,
+        "balance": 100.0,
+        "name": "joaozinho",
+        "password": "1173e9b2"
+    },
+    {
+        "account_number": 53121,
+        "address": "porot",
+        "age": 18,
+        "balance": 123.0,
+        "name": "joa",
+        "password": "1173e9b2"
     }
 ]
