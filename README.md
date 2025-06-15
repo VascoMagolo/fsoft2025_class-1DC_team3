@@ -9,7 +9,7 @@
 * Francisco Silva (1230985)
 
 ## 📌 Project Overview
-A simple yet functional Bank Account Management System implemented in C++ that stores account data in JSON files. This application demonstrates our understanding of Object-Oriented Programming (OOP) principles, file handling using JSON, and implementation of a user-friendly Graphical User Interface (GUI).
+A simple yet functional Bank Account Management System implemented in C++ that stores account data in JSON files. This application demonstrates our understanding of Object-Oriented Programming (OOP) principles, file handling using JSON, and a possible implementation of a user-friendly Graphical User Interface (GUI).
 
 ## ✅ Core Functionality
 * **Account Management**
@@ -44,12 +44,42 @@ A simple yet functional Bank Account Management System implemented in C++ that s
 * Real-time updates reflected in the UI
 
 ## Project Structure
-* `classes.h` & `classes.cpp` - Core classes including Account class definition and implementation
-* `main.cpp` - Application entry point and GUI initialization
-* `auth.cpp` & `auth.h` - Authentication system implementation
-* `json_handler.cpp` & `json_handler.h` - JSON data handling
-* `gui/` - Directory containing GUI implementation files
-* `accounts.json` - JSON storage file for account data
+
+### Controllers
+* `controllers/AccountController.cpp` & `AccountController.h` - Account management operations
+* `controllers/AdminController.cpp` & `AdminController.h` - Administrative functions
+* `controllers/MainController.cpp` & `MainController.h` - Main application controller
+
+### Data Layer
+* `data/AccountRepository.cpp` & `AccountRepository.h` - Data access and persistence layer
+
+### Models
+* `models/Admin.cpp` & `Admin.h` - Admin user model
+* `models/BankAccount.cpp` & `BankAccount.h` - Bank account model implementation
+
+### Services
+* `services/PasswordServices.cpp` & `PasswordServices.h` - Password validation and requirements
+
+### Views
+* `views/ConsoleView.cpp` & `ConsoleView.h` - Console interface implementation
+* `views/ReceiptView.cpp` & `ReceiptView.h` - Receipt generation and display
+
+### Core Files
+* `main.cpp` - Application entry point
+* `read.md` - Project documentation
+
+### Testing
+* `ProjectTest/` - Directory containing all unit tests
+ * `test_AccountController.cpp` - Account controller tests
+ * `test_AccountRepository.cpp` - Repository layer tests
+ * `test_Admin.cpp` - Admin model tests
+ * `test_AdminController.cpp` - Admin controller tests
+ * `test_BankAccount.cpp` - Bank account model tests
+ * `test_PasswordService.cpp` - Password service tests
+
+### Configuration
+* `.clang-format` - Code formatting configuration
+* `CMakeLists.txt` - Build configuration files
 
 ## 🧪 Testing & Validation
 * Core functionality validation
@@ -106,6 +136,7 @@ This project is under active development. We are currently implementing:
 * Report generation
 * Enhanced security features
 * Multi-currency support
+* GUI
 
 ## Authors
 * Vasco Magolo
